@@ -1,0 +1,2824 @@
+.header1 li {
+    display: inline-block;
+}
+
+.NavSignup {
+    width: 8rem;
+    background-color: #FF7373;
+    color: #fff;
+    font-size: 1rem;
+    position: absolute;
+    right: 12rem;
+    top: .8rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    padding-bottom: .5rem;
+    padding-top: .3rem;
+}
+
+.NavLogin {
+    width: 7rem;
+    background-color: #73ABFF;
+    color: #fff;
+    font-size: 1rem;
+    position: absolute;
+    right: 3rem;
+    top: .8rem;
+    font-weight: 500;
+    border-radius: 1rem;
+    padding-bottom: .5rem;
+    padding-top: .3rem;
+
+}
+
+.NavLogout {
+    width: 6rem;
+    color: #fff;
+    background-color: #FF7373;
+    position: absolute;
+    right: 4rem;
+    top: 3.8rem;
+    padding-bottom: .3rem;
+    border-radius: 1rem;
+}
+
+.hamburger {
+    width: 2.1rem;
+    height: 1.7rem;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    cursor: pointer;
+}
+
+.userName {
+    text-decoration: none;
+    position: relative;
+    top: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.box1 {
+    width: 14rem;
+    height: 7rem;
+    position: absolute;
+    right: 0rem;
+    top: 3.5rem;
+    background-color: #fff;
+    color: black;
+    border: .1rem #FF7373;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1050;
+}
+
+.uPic {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    position: absolute;
+    right: 7rem;
+    top: .8rem;
+    display: block;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black background */
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalBookmark {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black background */
+    z-index: 1050;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.loginPortion {
+    width: 25rem;
+    height: 16rem;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    z-index: 1220;
+
+}
+
+.NavSignup {
+    cursor: pointer;
+}
+
+.signupPortion {
+    width: 25rem;
+    height: 16rem;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+}
+
+.signupPortion1 {
+    width: 25rem;
+    height: 40rem;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+}
+
+.NavLogin {
+    cursor: pointer;
+}
+
+.loginText1 {
+    color: #000;
+    font-weight: 500;
+    font-size: 1.2rem;
+    position: relative;
+    top: 1.4rem;
+}
+
+.signupText1 {
+    color: #000;
+    font-weight: 500;
+    font-size: 1.2rem;
+    position: relative;
+    top: 1.4rem;
+}
+
+
+.loginInput1 {
+    width: 14rem;
+    height: 2rem;
+    position: relative;
+    left: 2rem;
+    border: .1rem solid black;
+}
+
+.filters2 {
+    display: none;
+}
+
+.signupInput1 {
+    width: 14rem;
+    height: 2rem;
+    position: relative;
+    left: 2rem;
+    border: .1rem solid black;
+}
+
+.loginInput2 {
+    width: 14rem;
+    height: 2rem;
+    position: relative;
+    left: 2.1rem;
+    border: .1rem solid black;
+}
+
+.signupInput2 {
+    width: 14rem;
+    height: 2rem;
+    position: relative;
+    left: 2.2rem;
+    border: .1rem solid black;
+}
+
+
+.loginLebel1 {
+    position: relative;
+    right: 1.5rem;
+    top: 2rem;
+    font-weight: 500;
+}
+
+.signupLebel1 {
+    position: relative;
+    right: 1.5rem;
+    top: 2rem;
+    font-weight: 500;
+}
+
+.loginLebel2 {
+    position: relative;
+    right: 1.5rem;
+    top: 4rem;
+    font-weight: 500;
+}
+
+.signupLebel2 {
+    position: relative;
+    right: 1.5rem;
+    top: 4rem;
+    font-weight: 500;
+}
+
+
+.LoginButton {
+    position: relative;
+    top: 5.2rem;
+    right: 1rem;
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    background: #73ABFF;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: .9rem;
+    cursor: pointer;
+}
+
+.SignupButton {
+    position: relative;
+    top: 5.2rem;
+    right: 1rem;
+    width: 8rem;
+    height: 2rem;
+    border: none;
+    background: #73ABFF;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: .9rem;
+    cursor: pointer;
+}
+
+
+
+.closeButton1 {
+    cursor: pointer;
+    position: absolute;
+    left: 58rem;
+    top: 16rem;
+    width: 1.5rem;
+}
+
+.YourStoryText22 {
+    display: none;
+}
+
+.produtsList22 {
+    display: none;
+}
+
+.jobFormate22 {
+    display: none;
+}
+
+.closeButton2 {
+    cursor: pointer;
+    position: absolute;
+    left: 58rem;
+    top: 16rem;
+    width: 1.5rem;
+}
+.noJobFound{
+    padding-top: 1rem;
+    position: relative;
+    top: 18rem;
+    left: 26rem;
+
+}
+
+.eye {
+    position: absolute;
+    left: 55.5rem;
+    top: 24.4rem;
+}
+
+.eye1 {
+    position: absolute;
+    left: 56rem;
+    top: 25.7rem;
+}
+
+.pImg {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-left: 80rem;
+    position: relative;
+    bottom: 3rem;
+}
+
+.storyPortion {
+    position: absolute;
+    top: 3rem;
+    right: 25rem;
+    width: 45rem;
+    height: 39rem;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    z-index: 1250;
+}
+
+.storyLength {
+    width: 10rem;
+    position: relative;
+    left: 35.2rem;
+    top: 1rem;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.bookmarks {
+    position: absolute;
+    left: 68rem;
+    top: .4rem;
+    background-color: #FF7373;
+    color: #fff;
+    border-radius: 1rem;
+    padding-left: 3rem;
+    padding-top: .5rem;
+    padding-right: .6rem;
+    padding-bottom: .5rem;
+    cursor: pointer;
+}
+
+.allBookmarkStatus {
+    display: none;
+}
+
+.addStory {
+    position: absolute;
+    left: 80rem;
+    top: .4rem;
+    background-color: #FF7373;
+    color: #fff;
+    border-radius: 1rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    cursor: pointer;
+}
+
+.bookmarkIcon {
+    width: 1rem;
+    position: absolute;
+    left: 69.4rem;
+    top: 1rem;
+    z-index: 1100;
+    cursor: pointer;
+}
+
+.createStory {
+    position: relative;
+    top: 2.4rem;
+    left: 18rem;
+    width: 5rem;
+    height: 3.5rem;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: .6rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.slidePart {
+    position: relative;
+    left: -4rem;
+    width: 5rem;
+    height: 3.5rem;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: .6rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    display: inline;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.createStoryInput1 {
+    width: 8rem;
+}
+
+.fromPortion {
+    position: absolute;
+    top: 12rem;
+}
+
+.slidePart.active {
+    border: .2rem solid #73ABFF;
+}
+
+.formInput1 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    position: relative;
+    left: 2.2rem;
+}
+
+.formInput11 {
+    width: 20rem;
+    height: 2.2rem;
+    position: relative;
+    left: 10rem;
+    border: .1rem solid black;
+    padding-left: 1rem;
+}
+
+.formInput2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    position: relative;
+    left: 3rem;
+}
+
+.formInput12 {
+    width: 20rem;
+    height: 7.2rem;
+    position: relative;
+    left: 8.4rem;
+    border: .1rem solid black;
+    padding-left: 1rem;
+}
+
+.formInput3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    position: relative;
+    left: 1.7rem
+}
+
+.closeButton3 {
+    cursor: pointer;
+    position: relative;
+    left: 19rem;
+    top: -1rem;
+    width: 2.5rem;
+}
+
+.closeButton13 {
+    cursor: pointer;
+    position: relative;
+    left: 20rem;
+    top: 1rem;
+    width: 2.5rem;
+}
+
+
+.formInput13 {
+    width: 20rem;
+    height: 2.2rem;
+    position: relative;
+    left: 11.2rem;
+    border: .1rem solid black;
+    padding-left: 1rem;
+}
+
+.formInput4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    position: relative;
+    left: 2.3rem;
+}
+
+.formInput14 {
+    width: 21.3rem;
+    height: 2.2rem;
+    position: relative;
+    left: 9.7rem;
+    border: .1rem solid black;
+    padding-left: 1rem;
+}
+
+.previewButton1 {
+    border: none;
+    font-size: 1.2rem;
+    background-color: #7EFF73;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    position: relative;
+    right: 4rem;
+    top: .5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.nextButton1 {
+    border: none;
+    font-size: 1.2rem;
+    background-color: #73ABFF;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    position: relative;
+    right: 2rem;
+    top: .5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.postButton1 {
+    border: none;
+    font-size: 1.2rem;
+    background-color: #FF7373;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    position: relative;
+    top: .5rem;
+    right: -20rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.filters {
+    /* background-color: #00ACD2; */
+    position: relative;
+    bottom: 1rem;
+    display: inline;
+}
+
+.bookmark00 {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    right: 0rem;
+    top: 28.9rem;
+    cursor: pointer;
+}
+
+.bookmark11 {
+    width: 2.1rem;
+    height: 2rem;
+    position: absolute;
+    top: 28.9rem;
+    left: 2rem;
+}
+
+.like00 {
+    width: 2.3rem;
+    height: 2.3rem;
+    position: absolute;
+    right: 4rem;
+    top: 29.1rem;
+    cursor: pointer;
+}
+
+.filter0 {
+    width: 13rem;
+    height: 9rem;
+    position: relative;
+    top: 1rem;
+    right: 35rem;
+    opacity: .7;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.filterAll {
+    width: 10rem;
+    position: relative;
+    top: 4rem;
+    color: #fff;
+    left: 7rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    z-index: 1030;
+    cursor: pointer;
+}
+
+.filter1 {
+    width: 13rem;
+    height: 9rem;
+    position: relative;
+    top: -10.7rem;
+    right: 19rem;
+    opacity: .7;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.filterHealth {
+    width: 10rem;
+    position: relative;
+    top: -7rem;
+    color: #fff;
+    left: 24rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    z-index: 1030;
+    cursor: pointer;
+}
+
+.filter2 {
+    width: 13rem;
+    height: 9rem;
+    position: relative;
+    top: -21.9rem;
+    right: 3rem;
+    opacity: .7;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.filterFood {
+    width: 5rem;
+    position: relative;
+    top: -18.3rem;
+    color: #fff;
+    left: 42rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    z-index: 1030;
+    cursor: pointer;
+}
+
+.filter3 {
+    width: 13rem;
+    height: 9rem;
+    position: relative;
+    top: -33.1rem;
+    right: -15rem;
+    opacity: .7;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.filterTravel {
+    width: 10rem;
+    position: relative;
+    top: -29rem;
+    color: #fff;
+    left: 57.7rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    z-index: 1030;
+    cursor: pointer;
+}
+
+.filter4 {
+    width: 13rem;
+    height: 9rem;
+    position: relative;
+    top: -44.5rem;
+    right: -34rem;
+    opacity: .7;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.filterMovies {
+    width: 10rem;
+    position: relative;
+    top: -40.7rem;
+    color: #fff;
+    left: 76.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    z-index: 1030;
+    cursor: pointer;
+}
+
+
+.selected {
+    border: .3rem solid #00ACD2;
+}
+
+.produtsList {
+    position: relative;
+    left: 7.5rem;
+    top: -40rem;
+    width: 80rem;
+}
+
+.jobFormate0 {
+    width: 22rem;
+    height: 33rem;
+    background-color: #000;
+    margin: 1rem;
+    position: relative;
+    left: -1rem;
+    border-radius: 1rem;
+    display: inline-flex;
+}
+
+.countButton {
+    width: 1rem;
+    height: 1rem;
+    color: #000;
+}
+
+.count {
+    width: 4rem;
+    color: white;
+    position: absolute;
+    top: 29.3rem;
+    right: 1rem;
+}
+
+.jobFormateBoo {
+    width: 14rem;
+    height: 22rem;
+    background-color: #000;
+    margin: 1rem;
+    position: relative;
+    left: 2rem;
+    bottom: 45rem;
+    border-radius: 1rem;
+    display: inline-flex;
+}
+
+.showText {
+    position: absolute;
+    top: 20rem;
+    left: 40rem;
+    color: #000;
+}
+
+.jobFormate {
+    width: 14rem;
+    height: 22rem;
+    background-color: #000;
+    margin: 1rem;
+    position: relative;
+    left: 0.8rem;
+    top: 6.5rem;
+    border-radius: 1rem;
+    display: inline-flex;
+}
+
+.jobFormate1 {
+    width: 14rem;
+    height: 22rem;
+    background-color: #000;
+    margin: 1rem;
+    position: relative;
+    left: 1rem;
+    border-radius: 1rem;
+    display: inline-flex;
+}
+
+.jobFormate2 {
+    width: 14rem;
+    height: 22rem;
+    background-color: #000;
+    margin: 1rem;
+    position: relative;
+    left: 1rem;
+    border-radius: 1rem;
+    display: inline-flex;
+}
+
+.jobFormate3 {
+    width: 14rem;
+    height: 22rem;
+    background-color: #000;
+    margin: 1rem;
+    position: relative;
+    left: 1rem;
+    top: 5rem;
+    border-radius: 1rem;
+    display: inline-flex;
+}
+
+.jobFormate4 {
+    width: 14rem;
+    height: 22rem;
+    background-color: #000;
+    margin: 1rem;
+    position: relative;
+    top: 10rem;
+    left: 1rem;
+    border-radius: 1rem;
+    display: inline-flex;
+}
+
+.progressBarContainer {
+    position: absolute;
+    bottom: 39.3rem;
+    left: 41rem;
+    width: 20%;
+    height: 4px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1200;
+}
+
+.progressBar {
+    height: 100%;
+    background-color: #4caf50;
+    background-size: 0% 100%;
+    transition: width 0.3s;
+}
+
+.imgSize {
+    width: 16.5rem;
+    height: 15rem;
+    position: relative;
+    left: -2.5rem;
+    border-radius: 1rem;
+}
+
+.imgSizeBoo {
+    width: 16.5rem;
+    height: 15rem;
+    position: relative;
+    left: -2.5rem;
+    border-radius: 1rem;
+}
+
+.imgSize1 {
+    width: 22rem;
+    height: 19rem;
+    position: absolute;
+    left: 0rem;
+    border-radius: 1rem;
+}
+
+
+.jobFormateHeading {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    position: absolute;
+    left: 1rem;
+    top: 15rem;
+}
+
+.jobFormateHeadingBoo {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    position: absolute;
+    left: 1rem;
+    top: 15rem;
+}
+
+.resProducts {
+    display: none;
+}
+
+.jobFormateHeading1 {
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    position: absolute;
+    left: 1rem;
+    top: 22rem;
+}
+
+.jobFormateDescription {
+    width: 16rem;
+    color: #fff;
+    font-size: .8rem;
+    position: absolute;
+    left: 0rem;
+    top: 17.2rem;
+}
+
+.jobFormateDescriptionBoo {
+    width: 16rem;
+    color: #fff;
+    font-size: .8rem;
+    position: absolute;
+    left: 0rem;
+    top: 17.2rem;
+}
+
+.jobFormateDescription1 {
+    width: 20rem;
+    color: #fff;
+    font-size: .8rem;
+    position: absolute;
+    left: 1rem;
+    top: 24.2rem;
+}
+
+.closebutton00 {
+    position: relative;
+    right: 45rem;
+    bottom: 15rem;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.editIcon {
+    width: 1rem;
+    z-index: 1060;
+    position: absolute;
+    top: 21.3rem;
+    right: 8.7rem;
+    cursor: pointer;
+}
+
+.editText {
+    background-color: #fff;
+    color: #000;
+    width: 4rem;
+    height: 1.7rem;
+    padding-left: 1rem;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    position: absolute;
+    top: 20.9rem;
+    left: 6rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.YourStoryText {
+    width: 15rem;
+    color: #000;
+    position: relative;
+    background-color: #fff;
+    left: 40rem;
+    top: -42rem;
+    z-index: 1010;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.YourBookmark {
+    width: 15rem;
+    color: #000;
+    position: relative;
+    background-color: #fff;
+    left: 40rem;
+    top: -44.5rem;
+    z-index: 1010;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.editPortion {
+    background-color: #fff;
+    width: 40rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
+
+.formInput01 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    position: relative;
+    left: -4.7rem;
+    top: 5rem;
+
+}
+
+.formInput21 {
+    width: 20rem;
+    height: 2.2rem;
+    position: relative;
+    left: 10rem;
+    border: .1rem solid black;
+    padding-left: 1rem;
+}
+
+.formInput02 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    position: relative;
+    left: -4rem;
+    top: 5rem;
+
+}
+
+.formInput22 {
+    width: 20rem;
+    height: 7.2rem;
+    position: relative;
+    left: 8.4rem;
+    border: .1rem solid black;
+    padding-left: 1rem;
+}
+
+.formInput03 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    position: relative;
+    left: -5.3rem;
+    top: 5rem;
+
+}
+
+.formInput23 {
+    width: 20rem;
+    height: 2.2rem;
+    position: relative;
+    left: 11.2rem;
+    border: .1rem solid black;
+    padding-left: 1rem;
+}
+
+.formInput04 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    position: relative;
+    top: 5rem;
+    left: -4.7rem;
+}
+
+.formInput24 {
+    width: 21.3rem;
+    height: 2.2rem;
+    position: relative;
+    left: 9.7rem;
+    border: .1rem solid black;
+    padding-left: 1rem;
+}
+
+.postButton11 {
+    border: none;
+    font-size: 1.2rem;
+    background-color: #FF7373;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    position: relative;
+    top: 4.5rem;
+    right: -14rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.updateText {
+    color: #000;
+    position: absolute;
+    left: 43rem;
+    top: 9.3rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.editClose {
+    position: absolute;
+    width: 1.3rem;
+    top: 9.3rem;
+    left: 65.5rem;
+    cursor: pointer;
+}
+
+
+.otherStoryText1 {
+    width: 20rem;
+    height: 2rem;
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 700;
+    left: 34rem;
+    bottom: 39.4rem;
+}
+
+.otherStoryText2 {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 700;
+    bottom: 34rem;
+}
+
+.otherStoryText3 {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 700;
+    bottom: 29.5rem;
+}
+
+.otherStoryText4 {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 700;
+    bottom: 24rem;
+}
+
+.produtsList1 {
+    position: relative;
+    left: 4.5rem;
+    top: -48rem;
+    width: 90rem;
+}
+
+.produtsList11 {
+    position: relative;
+    left: 4.5rem;
+    top: -39rem;
+    width: 90rem;
+}
+
+.produtsList2 {
+    position: relative;
+    left: 4.5rem;
+    top: -33.5rem;
+    width: 90rem;
+
+}
+
+.produtsList3 {
+    position: relative;
+    left: 4.5rem;
+    top: -34rem;
+    width: 90rem;
+
+}
+
+.produtsList4 {
+    position: relative;
+    left: 4.5rem;
+    top: -34rem;
+    width: 90rem;
+
+}
+
+.active {
+    width: 10rem;
+    height: 2rem;
+    display: inline;
+}
+
+.hideUnhide0 {
+    border: none;
+    background-color: #FF7373;
+    color: #fff;
+    position: relative;
+    right: 40rem;
+    top: 15.3rem;
+    border-radius: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    z-index: 1100;
+}
+
+.hideUnhide {
+    border: none;
+    background-color: #FF7373;
+    color: #fff;
+    position: relative;
+    right: 40rem;
+    top: 9rem;
+    border-radius: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.hideUnhide1 {
+    border: none;
+    background-color: #FF7373;
+    color: #fff;
+    position: relative;
+    right: 40rem;
+    top: 9rem;
+    border-radius: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.hideUnhide2 {
+    border: none;
+    background-color: #FF7373;
+    color: #fff;
+    position: relative;
+    right: 40rem;
+    top: 14rem;
+    border-radius: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    z-index: 1030;
+}
+
+.hideUnhide3 {
+    border: none;
+    background-color: #FF7373;
+    color: #fff;
+    position: relative;
+    right: 40rem;
+    top: 19rem;
+    border-radius: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+
+.leftArrow {
+    margin-right: 30rem;
+    cursor: pointer;
+    position: relative;
+    left: 20rem;
+}
+
+.rightArrow {
+    margin-left: 20rem;
+    cursor: pointer;
+    position: relative;
+    right: 10rem;
+}
+
+.shareIcon {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    left: 18.5rem;
+    bottom: -1.2rem;
+    cursor: pointer;
+}
+
+.shareOutputText {
+    width: 18rem;
+    height: 2rem;
+    position: absolute;
+    right: -.1rem;
+    top: 19.4rem;
+    color: red;
+    background-color: #D9D9D9;
+    z-index: 1150;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .3rem;
+    padding-bottom: .4rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    font-weight: 500;
+}
+
+.humbarger1 {
+    display: none;
+}
+
+
+
+
+@media (380px <=width <=760px) {
+
+    .shareOutputTextAA {
+        width: 30rem;
+        height: 3rem;
+        position: absolute;
+        right: 0rem;
+        top: 28.4rem;
+        color: red;
+        background-color: #D9D9D9;
+        z-index: 1150;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: .3rem;
+        padding-bottom: .4rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        font-weight: 500;
+    }
+    
+    .NavSignup {
+        width: 8rem;
+        background-color: #FF7373;
+        color: #fff;
+        font-size: 1rem;
+        position: absolute;
+        right: 12rem;
+        top: .8rem;
+        font-weight: 500;
+        border-radius: 1rem;
+        padding-bottom: .5rem;
+        padding-top: .3rem;
+        display: none;
+
+    }
+
+    .NavLogin {
+        width: 7rem;
+        background-color: #73ABFF;
+        color: #fff;
+        font-size: 1rem;
+        position: absolute;
+        right: 3rem;
+        top: .8rem;
+        font-weight: 500;
+        border-radius: 1rem;
+        padding-bottom: .5rem;
+        padding-top: .3rem;
+        display: none;
+
+    }
+
+
+    .humbarger1 {
+        position: absolute;
+        left: 87rem;
+        top: .6rem;
+        width: 2.1rem;
+        height: 1.7rem;
+        display: block;
+    }
+
+    .box2 {
+        width: 94.3rem;
+        height: 30rem;
+        position: absolute;
+        left: 0rem;
+        top: 3.5rem;
+        background-color: #fff;
+        color: black;
+        border: .1rem #FF7373;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        z-index: 1050;
+    }
+
+    .closeBurger {
+        font-size: 3.5rem;
+        position: absolute;
+        left: 86rem;
+        top: 1rem;
+        width: 3rem;
+        font-weight: 500;
+    }
+
+    .resLogin {
+        background-color: #FF7373;
+        color: #fff;
+        width: 11rem;
+        height: 3rem;
+        font-size: 1.7rem;
+        border-radius: 1rem;
+        border: none;
+        position: relative;
+        top: 8rem;
+        left: 1rem;
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+    .resRegister {
+        background-color: #FF7373;
+        color: #fff;
+        width: 11rem;
+        height: 3rem;
+        font-size: 1.7rem;
+        border-radius: 1rem;
+        border: none;
+        position: relative;
+        left: -10rem;
+        top: 15rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .signupPortion1 {
+        width: 40rem;
+        height: 60rem;
+        background-color: #fff;
+        color: #000;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 1rem;
+    }
+
+    .signupText2 {
+        color: #000;
+        font-weight: 700;
+        font-size: 3rem;
+        position: relative;
+        top: 9.4rem;
+    }
+
+
+    .signupLebel21 {
+        position: relative;
+        right: -9.7rem;
+        top: 22rem;
+        font-weight: 700;
+        font-size: 2.2rem;
+    }
+
+    .signupInput21 {
+        width: 20rem;
+        height: 3rem;
+        position: relative;
+        left: -13.1rem;
+        top: 3.7rem;
+        border: .1rem solid black;
+        font-size: 1.7rem;
+    }
+
+    .SignupButton1 {
+        position: relative;
+        top: 30.2rem;
+        right: 1rem;
+        width: 11rem;
+        height: 3.2rem;
+        border: none;
+        background: #73ABFF;
+        color: #fff;
+        font-size: 1.8rem;
+
+        border-radius: .9rem;
+        cursor: pointer;
+    }
+
+
+    .eye11 {
+        position: relative;
+        left: 14.9rem;
+        top: 22.5rem;
+        width: 2rem;
+    }
+
+    .signupLebel11 {
+        position: relative;
+        right: -7rem;
+        top: 13.6rem;
+        font-weight: 700;
+        font-size: 2.2rem;
+    }
+
+    .signupInput11 {
+        width: 20rem;
+        height: 3rem;
+        position: relative;
+        left: -13rem;
+        top: 3.6rem;
+        border: .1rem solid black;
+        font-size: 1.7rem;
+    }
+
+    .loginPortion1 {
+        width: 40rem;
+        height: 60rem;
+        background-color: #fff;
+        color: #000;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 1rem;
+        z-index: 1220;
+
+    }
+
+    .closeButton11 {
+        cursor: pointer;
+        position: relative;
+        left: 31rem;
+        top: -3rem;
+        width: 3.5rem;
+    }
+
+    .LoginButton1 {
+        position: relative;
+        top: 30.2rem;
+        right: 1rem;
+        width: 11rem;
+        height: 3.2rem;
+        border: none;
+        background: #73ABFF;
+        color: #fff;
+        font-size: 1.8rem;
+
+        border-radius: .9rem;
+        cursor: pointer;
+    }
+
+    .loginLebel21 {
+        position: relative;
+        right: -9.7rem;
+        top: 22rem;
+        font-weight: 700;
+        font-size: 2.2rem;
+    }
+
+    .loginInput22 {
+        width: 20rem;
+        height: 3rem;
+        position: relative;
+        left: -13.1rem;
+        top: 3.7rem;
+        border: .1rem solid black;
+        font-size: 1.7rem;
+    }
+
+    .loginLebel11 {
+        position: relative;
+        right: -7rem;
+        top: 13.6rem;
+        font-weight: 700;
+        font-size: 2.2rem;
+    }
+
+    .loginInput11 {
+        width: 20rem;
+        height: 3rem;
+        position: relative;
+        left: -13rem;
+        top: 3.6rem;
+        border: .1rem solid black;
+        font-size: 1.7rem;
+    }
+
+    .loginText11 {
+        color: #000;
+        font-weight: 700;
+        font-size: 3rem;
+        position: relative;
+        top: 9.4rem;
+    }
+
+    .eye23 {
+        position: relative;
+        left: 14.9rem;
+        top: 22.5rem;
+        width: 2rem;
+    }
+
+    .hamburger {
+        width: 2.1rem;
+        height: 1.7rem;
+        position: absolute;
+        right: 2rem;
+        top: 1rem;
+        cursor: pointer;
+        display: none;
+    }
+
+    .userName {
+        text-decoration: none;
+        position: relative;
+        top: .5rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+        display: none;
+    }
+
+    .pImg {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        margin-left: 80rem;
+        position: relative;
+        bottom: 2rem;
+        display: none;
+    }
+
+    .bookmarks {
+        position: absolute;
+        left: 68rem;
+        top: .4rem;
+        background-color: #FF7373;
+        color: #fff;
+        border-radius: 1rem;
+        padding-left: 3rem;
+        padding-top: .5rem;
+        padding-right: .6rem;
+        padding-bottom: .5rem;
+        cursor: pointer;
+        display: none;
+
+    }
+
+    .addStory {
+        position: absolute;
+        left: 80rem;
+        top: .4rem;
+        background-color: #FF7373;
+        color: #fff;
+        border-radius: 1rem;
+        padding-left: .7rem;
+        padding-right: .7rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        cursor: pointer;
+        display: none;
+
+    }
+
+    .bookmarkIcon {
+        width: 1rem;
+        position: absolute;
+        left: 69.4rem;
+        top: 1rem;
+        z-index: 1100;
+        cursor: pointer;
+        display: none;
+    }
+
+    .resUserPic {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        position: relative;
+        right: 15rem;
+        top: 1rem;
+
+    }
+
+    .resUserName {
+        font-size: 1.5rem;
+        font-weight: 700;
+        position: relative;
+        bottom: 3.6rem;
+    }
+
+    .resYourStory {
+        background-color: #FF7373;
+        color: #fff;
+        width: 12rem;
+        height: 2.8rem;
+        border: none;
+        position: relative;
+        bottom: 2rem;
+        left: 6rem;
+        font-size: 1.3rem;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .resAddStory {
+        background-color: #FF7373;
+        color: #fff;
+        width: 10em;
+        height: 2.8rem;
+        border: none;
+        position: relative;
+        top: 3rem;
+        left: -6rem;
+        font-size: 1.3rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+
+    .resBookmark {
+        background-color: #FF7373;
+        color: #fff;
+        width: 10em;
+        height: 2.8rem;
+        border: none;
+        position: relative;
+        top: 5rem;
+        left: 41rem;
+        font-size: 1.3rem;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        /* cursor: pointer; */
+    }
+
+    .resLogout {
+        background-color: #FF7373;
+        color: #fff;
+        width: 10em;
+        height: 2.8rem;
+        border: none;
+        position: relative;
+        top: 7rem;
+        left: 0rem;
+        font-size: 1.3rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+
+    .YourStoryText {
+        width: 15rem;
+        color: #000;
+        position: relative;
+        background-color: #fff;
+        left: 40rem;
+        top: -44rem;
+        z-index: 1070;
+        font-size: 1.5rem;
+        font-weight: 700;
+        display: none;
+    }
+
+    .produtsList1 {
+        position: relative;
+        left: 4.5rem;
+        top: -48rem;
+        width: 90rem;
+        display: none;
+    }
+
+    .filters {
+        position: relative;
+        bottom: 0rem;
+        left: 30rem;
+        display: inline;
+    }
+
+    .filterAll {
+        width: 10rem;
+        position: absolute;
+        top: 4rem;
+        color: #fff;
+        left: -40rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterHealth {
+        width: 10rem;
+        position: absolute;
+        top: 4rem;
+        color: #fff;
+        left: -25rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterFood {
+        width: 5rem;
+        position: absolute;
+        top: 3.8rem;
+        color: #fff;
+        left: -6rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterTravel {
+        width: 10rem;
+        position: absolute;
+        top: 4rem;
+        color: #fff;
+        left: 9.7rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterMovies {
+        width: 10rem;
+        position: absolute;
+        top: 3.7rem;
+        color: #fff;
+        left: 29.5rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filter2 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -17.4rem;
+        right: 3rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filter1 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -8rem;
+        right: 19rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filter3 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -27.1rem;
+        right: -15rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filter4 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -36rem;
+        right: -34rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .storyPortion {
+        position: absolute;
+        top: 0rem;
+        right: 25rem;
+        width: 44rem;
+        height: 80rem;
+        background-color: #fff;
+        color: #000;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 2rem;
+    }
+
+    .createStory1 {
+        position: relative;
+        top: 54.4rem;
+        left: -17.5rem;
+        width: 4rem;
+        height: 4rem;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: .6rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        cursor: pointer;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    .closeButtonAdd {
+        cursor: pointer;
+        position: relative;
+        left: 16rem;
+        top: 1rem;
+        width: 4rem;
+    }
+
+    .storyAddText {
+        width: 30rem;
+        position: relative;
+        left: 5.2rem;
+        top: 1rem;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .slidePart {
+        position: relative;
+        left: 1rem;
+        top: 0rem;
+        width: 4rem;
+        height: 3.5rem;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: .6rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        cursor: pointer;
+        display: list-item;
+        padding: 1rem;
+        margin-top: 2rem;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .previewButton1 {
+        border: none;
+        font-size: 1.2rem;
+        background-color: #7EFF73;
+        color: #fff;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        position: relative;
+        right: 4rem;
+        top: .5rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        display: none;
+    }
+
+    .nextButton1 {
+        border: none;
+        font-size: 1.2rem;
+        background-color: #73ABFF;
+        color: #fff;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        position: relative;
+        right: 2rem;
+        top: .5rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        display: none;
+    }
+
+    .postButton1 {
+        border: none;
+        font-size: 1.5rem;
+        background-color: #FF7373;
+        color: #fff;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+        position: relative;
+        top: 32.5rem;
+        right: -7rem;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .formInput14 {
+        width: 30.9rem;
+        height: 3.2rem;
+        position: relative;
+        left: -8.7rem;
+        top: 3rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .formInput4 {
+        font-size: 2rem;
+        font-weight: 700;
+        position: relative;
+        top: 23rem;
+        left: 9.6rem;
+    }
+
+    .formInput3 {
+        font-size: 2rem;
+        font-weight: 700;
+        position: relative;
+        left: 8.3rem;
+        top: 18rem;
+    }
+
+    .formInput13 {
+        width: 30rem;
+        height: 3.2rem;
+        position: relative;
+        left: -6.2rem;
+        top: 3.3rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .formInput2 {
+        font-size: 2rem;
+        font-weight: 700;
+        position: relative;
+        left: 11rem;
+        top: 9rem;
+    }
+
+    .formInput12 {
+        width: 30rem;
+        height: 7.2rem;
+        position: relative;
+        left: -11.4rem;
+        top: 6rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .formInput1 {
+        font-size: 2rem;
+        font-weight: 700;
+        position: relative;
+        left: 9rem;
+        top: 4rem;
+    }
+
+    .formInput11 {
+        width: 30rem;
+        height: 3.2rem;
+        position: relative;
+        left: -7.9rem;
+        top: 4rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .closeButton3 {
+        cursor: pointer;
+        position: relative;
+        left: 31rem;
+        top: -1rem;
+        width: 3.5rem;
+    }
+
+    .otherStoryText1 {
+        width: 20rem;
+        height: 2rem;
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 700;
+        left: 34rem;
+        bottom: 39.4rem;
+        display: none;
+    }
+
+    .otherStoryText2 {
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 700;
+        bottom: 34rem;
+        display: none;
+    }
+
+    .otherStoryText3 {
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 700;
+        bottom: 29.5rem;
+        display: none;
+    }
+
+    .otherStoryText4 {
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 700;
+        bottom: 24rem;
+        display: none;
+    }
+
+    .produtsList11 {
+        display: none;
+    }
+
+    .produtsList2 {
+        display: none;
+    }
+
+    .produtsList3 {
+        display: none;
+    }
+
+    .produtsList4 {
+        display: none;
+    }
+
+    .resProducts {
+        display: block;
+    }
+
+    .jobFormateRes {
+        margin-top: 2rem;
+        background-color: #000;
+        height: 47rem;
+        width: 34rem;
+        position: relative;
+        top: -24rem;
+        left: 31rem;
+        border-radius: 1rem;
+
+    }
+
+    .imgSizeRes {
+        width: 36.4rem;
+        height: 33rem;
+        position: relative;
+        left: -2.5rem;
+        border-radius: 1rem;
+    }
+
+    .jobFormateHeadingRes {
+        color: #fff;
+        font-size: 3rem;
+        font-weight: 500;
+        position: absolute;
+        left: 1rem;
+        top: 33.5rem;
+    }
+
+    .jobFormateDescriptionRes {
+        width: 34rem;
+        color: #fff;
+        font-size: 1.6rem;
+        position: absolute;
+        left: 0rem;
+        top: 38.2rem;
+    }
+
+    .modalBookmark {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Semi-transparent black background */
+        z-index: 1050;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .jobFormateResO {
+        background-color: #000;
+        position: relative;
+        top: -5rem;
+        width: 40rem;
+        height: 60rem;
+        border-radius: 1rem;
+
+    }
+
+    .imgSize10 {
+        width: 40rem;
+        height: 32rem;
+        position: absolute;
+        left: 0rem;
+        border-radius: 1rem;
+    }
+
+    .jobFormateHeading10 {
+        color: #fff;
+        font-size: 3.3rem;
+        font-weight: 500;
+        position: relative;
+        left: -11rem;
+        top: 33rem;
+    }
+
+    .jobFormateDescription10 {
+        width: 40rem;
+        color: #fff;
+        font-size: 1.4rem;
+        position: relative;
+        left: 0rem;
+        top: 34.2rem;
+    }
+
+    .shareIcon0 {
+        width: 3rem;
+        height: 3rem;
+        position: relative;
+        left: 18.5rem;
+        top: -6rem;
+        cursor: pointer;
+    }
+
+    .closebutton000 {
+        position: relative;
+        right: 59.5rem;
+        bottom: 32rem;
+        cursor: pointer;
+        font-size: 4rem;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .bookmark000 {
+        width: 3rem;
+        height: 4rem;
+        position: absolute;
+        right: 34rem;
+        top: 48.1rem;
+        cursor: pointer;
+    }
+
+    .countButton0 {
+        width: 1rem;
+        height: 1rem;
+        color: #000;
+    }
+
+    .count0 {
+        width: 4rem;
+        color: white;
+        position: absolute;
+        top: 48.8rem;
+        right: 2rem;
+        font-size: 2.2rem;
+    }
+
+    .like000 {
+        width: 4.3rem;
+        height: 4.3rem;
+        position: absolute;
+        right: 6rem;
+        top: 48.1rem;
+        cursor: pointer;
+    }
+
+
+    .progressContainer0 {
+        position: relative;
+        width: 100%;
+        height: 10px;
+        background-color: #e0e0e0;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .progressBar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 1%;
+        background-color: #4caf50;
+        transition: width 0.3s ease;
+    }
+
+    .shareOutputText0 {
+        width: 35rem;
+        height: 3rem;
+        position: absolute;
+        right: 1.1rem;
+        top: 28.4rem;
+        color: red;
+        background-color: #D9D9D9;
+        z-index: 1150;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: .3rem;
+        padding-bottom: .4rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        font-weight: 500;
+    }
+
+    .bookmark111 {
+        width: 3.1rem;
+        height: 4rem;
+        position: absolute;
+        right: 33.9rem;
+        top: 48.1rem;
+        cursor: pointer;
+    }
+
+    .allBookmarkStatus {
+        display: block;
+    }
+
+    .jobFormateReso {
+        margin-top: 2rem;
+        display: list-item;
+        position: relative;
+        top: 16rem;
+        left: 30rem;
+        padding-top: 1.7rem;
+        background-color: #000;
+        width: 34rem;
+        height: 50rem;
+        border-radius: 1rem;
+
+    }
+
+    .jobFormateRes1 {
+        margin-top: 2rem;
+        display: list-item;
+        position: relative;
+        top: 0rem;
+        left: 0rem;
+        padding-top: 1.7rem;
+        background-color: #000;
+        width: 34rem;
+        height: 50rem;
+        border-radius: 1rem;
+
+    }
+
+    .imgSizeReso {
+        width: 36.5rem;
+        height: 40rem;
+        position: relative;
+        left: -2.5rem;
+        top: -2rem;
+        border-radius: 1rem;
+    }
+
+    .jobFormateHeadingReso {
+        color: #fff;
+        font-size: 3rem;
+        font-weight: 500;
+        position: absolute;
+        left: 1rem;
+        top: 39.5rem;
+    }
+
+    .jobFormateDescriptionReso {
+        width: 34rem;
+        color: #fff;
+        font-size: 1.6rem;
+        position: absolute;
+        left: 0rem;
+        top: 44.2rem;
+    }
+
+    .YourBookmarkRes {
+        width: 25rem;
+        color: #000;
+        position: relative;
+        background-color: #fff;
+        left: 38rem;
+        top: -30.5rem;
+        z-index: 1010;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .YourBookmarkReso {
+        width: 25rem;
+        color: #000;
+        position: relative;
+        background-color: #fff;
+        left: 38rem;
+        top: 17.5rem;
+        z-index: 1010;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-top: 10rem;
+        padding-bottom: 1rem;
+    }
+
+    .YourStoryText22 {
+        display: block;
+        width: 15rem;
+        color: #000;
+        position: relative;
+        background-color: #fff;
+        left: 40rem;
+        top: 18.5rem;
+        z-index: 1010;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-top: 10rem
+        }
+
+    .produtsList22 {
+        display: block;
+    }
+
+    .jobFormate22 {
+        margin-top: 3rem;
+        display: list-item;
+        position: relative;
+        top: 16rem;
+        left: 30rem;
+        padding-top: 2.7rem;
+        background-color: #000;
+        width: 34rem;
+        height: 50rem;
+        border-radius: 1rem;
+    }
+
+    .editIcon00 {
+        width: 1.7rem;
+        z-index: 1010;
+        position: absolute;
+        top: 51.3rem;
+        right: 17.7rem;
+        cursor: pointer;
+    }
+
+    .editText00 {
+        background-color: #fff;
+        color: #000;
+        width: 9rem;
+        height: 2.7rem;
+        padding-left: 1rem;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 1rem;
+        position: absolute;
+        top: 50.9rem;
+        left: 16rem;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 1.7rem;
+    }
+
+    .imgSizeResoo {
+        width: 36.5rem;
+        height: 40rem;
+        position: relative;
+        left: -2.5rem;
+        top: -2.8rem;
+        border-radius: 1rem;
+    }
+
+
+    .imgSizeRes1 {
+        width: 34.3rem;
+        height: 33rem;
+        position: relative;
+        left: 0rem;
+        top: -2rem;
+        border-radius: 1rem;
+    }
+
+    .jobFormateHeadingRes1 {
+        color: #fff;
+        font-size: 3rem;
+        font-weight: 500;
+        position: absolute;
+        left: 1rem;
+        top: 33.5rem;
+    }
+
+    .jobFormateDescriptionRes1 {
+        width: 34rem;
+        color: #fff;
+        font-size: 1.6rem;
+        position: absolute;
+        left: 0rem;
+        top: 38.2rem;
+    }
+
+    .filters2 {
+        display: block;
+        position: absolute;
+        left: 41rem;
+        top: 4rem;
+    }
+
+    .filterAll1 {
+        width: 10rem;
+        position: relative;
+        top: 5.5rem;
+        color: #fff;
+        left: -35rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+
+    }
+
+    .produtsListRes {
+        position: relative;
+        top: 50rem;
+    }
+
+    .filterHealth1 {
+        width: 10rem;
+        position: absolute;
+        top: 5.5rem;
+        color: #fff;
+        left: -17rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterFood1 {
+        width: 5rem;
+        position: absolute;
+        top: 5.5rem;
+        color: #fff;
+        left: -0rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterTravel1 {
+        width: 10rem;
+        position: absolute;
+        top: 5.5rem;
+        color: #fff;
+        left: 16.4rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+    .filterMovies1 {
+        width: 10rem;
+        position: absolute;
+        top: 5.5rem;
+        color: #fff;
+        left: 36.2rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+
+    .filters {
+        display: none;
+
+    }
+
+    .shareIconRes1 {
+        position: absolute;
+        top: 1.5rem;
+        left: 30rem;
+        width: 3rem;
+    }
+
+    .closebutton00Res {
+        position: relative;
+        right: 55rem;
+        bottom: 23rem;
+        cursor: pointer;
+        font-size: 4rem;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .progressContainerRes {
+        position: relative;
+        width: 10%;
+        height: 10px;
+        background-color: #e0e0e0;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .progressBar {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        height: 1%;
+        background-color: #4caf50;
+        transition: width 0.3s ease;
+        z-index: 1200;
+    }
+
+    .bookmark00Res {
+        width: 2.9rem;
+        height: 4rem;
+        position: relative;
+        top: 11rem;
+        right: 11.1rem;
+        z-index: 1200;
+
+    }
+
+    .bookmark11Res {
+        width: 3rem;
+        height: 4rem;
+        position: relative;
+        top: 11rem;
+        right: 14rem;
+        z-index: 1200;
+
+    }
+
+    .like00Res {
+        width: 3.8rem;
+        height: 3.8rem;
+        position: absolute;
+        right: 5rem;
+        top: 46.1rem;
+        cursor: pointer;
+        z-index: 1200;
+    }
+
+    .countRes {
+        font-size: 2rem;
+        z-index: 1000;
+        color: #fff;
+        position: relative;
+        left: 14rem;
+        top: 7rem;
+    }
+
+    .countButtonRes {
+        color: #000;
+        background-color: #000;
+    }
+
+    .editPortion1 {
+        position: absolute;
+        top: 0rem;
+        right: 25rem;
+        width: 44rem;
+        height: 80rem;
+        background-color: #fff;
+        color: #000;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 2rem;
+
+    }
+
+    .editClose1 {
+        cursor: pointer;
+        position: relative;
+        left: 37rem;
+        top: -3rem;
+        width: 4rem;
+    }
+
+    .updateText1 {
+        width: 30rem;
+        position: relative;
+        left: 5.2rem;
+        top: 8rem;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .formInput011 {
+        font-size: 2rem;
+        font-weight: 700;
+        position: relative;
+        left: 2rem;
+        top: 13rem;
+    }
+
+    .formInput211 {
+        width: 30rem;
+        height: 3.2rem;
+        position: relative;
+        left: -7.9rem;
+        top: 4rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1.4rem;
+    }
+
+
+
+
+    .formInput244 {
+        width: 30.9rem;
+        height: 3.2rem;
+        position: relative;
+        left: -8.7rem;
+        top: 3rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .formInput044 {
+        font-size: 2rem;
+        font-weight: 700;
+        position: relative;
+        top: 33rem;
+        left: 4.6rem;
+    }
+
+    .formInput033 {
+        font-size: 2rem;
+        font-weight: 700;
+        position: relative;
+        left: 3.6rem;
+        top: 26rem;
+    }
+
+    .formInput233 {
+        width: 30rem;
+        height: 3.2rem;
+        position: relative;
+        left: -6.2rem;
+        top: 3.3rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .formInput022 {
+        font-size: 2rem;
+        font-weight: 700;
+        position: relative;
+        left: 6rem;
+        top: 17rem;
+    }
+
+    .formInput222 {
+        width: 30rem;
+        height: 7.2rem;
+        position: relative;
+        left: -11.4rem;
+        top: 6rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .postButton111 {
+        border: none;
+        font-size: 1.5rem;
+        background-color: #FF7373;
+        color: #fff;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+        position: relative;
+        top: 38.5rem;
+        right: -2rem;
+        border-radius: 1rem;
+        cursor: pointer;
+
+    }
+
+    .filterA1 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: 0rem;
+        right: 35rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filterA2 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -9rem;
+        right: 19rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filterA3 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -18rem;
+        right: 3rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filterA4 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -28.1rem;
+        right: -15rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filterA5 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -37rem;
+        right: -34rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .showText11 {
+        position: relative;
+        top: 20rem;
+        left: 40rem;
+        color: #000;
+        font-size: 1.5rem;
+    }
+
+
+}
