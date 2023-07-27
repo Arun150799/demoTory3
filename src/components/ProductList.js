@@ -2515,11 +2515,6 @@ const ProductList = () => {
               <p className='noJobFound'>😔 Oops, No story found.</p>
             )}
 
-            {/* {jobList5.length > 4 && (
-            <button onClick={handleToggleExpand4} className="hideUnhide2">
-              {expanded4 ? 'See Less' : 'See More'}
-            </button>
-          )} */}
           </div>
         </div>
 
@@ -2533,3 +2528,4 @@ const ProductList = () => {
 }
 
 export default ProductList
+ 

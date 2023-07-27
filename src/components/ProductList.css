@@ -1297,7 +1297,7 @@
 
 
 
-@media only screen and (max-width :760px) and  (min-width:350px) {
+@media only screen and (max-width :600px) {
 
     .shareOutputTextAA {
         width: 30rem;
@@ -1352,7 +1352,7 @@
 
     .humbarger1 {
         position: absolute;
-        left: 87rem;
+        left: 67rem;
         top: 1.6rem;
         width: 3.6rem;
         height: 3.7rem;
@@ -1360,7 +1360,7 @@
     }
 
     .box2 {
-        width: 94.3rem;
+        width: 73.2rem;
         height: 40rem;
         position: absolute;
         left: 0rem;
@@ -1375,7 +1375,7 @@
     .closeBurger {
         font-size: 5.5rem;
         position: absolute;
-        left: 86rem;
+        left: 66rem;
         top: 3rem;
         width: 3rem;
         font-weight: 500;
@@ -1700,7 +1700,7 @@
         border: none;
         position: relative;
         top: 5.5rem;
-        left: 37.6rem;
+        left: 27rem;
         font-size: 2.3rem;
         border-radius: 1rem;
         margin-top: 1rem;
@@ -2118,7 +2118,7 @@
         width: 34rem;
         position: relative;
         top: -24rem;
-        left: 31rem;
+        left: 18rem;
         border-radius: 1rem;
 
     }
@@ -2480,7 +2480,7 @@
     .filters2 {
         display: block;
         position: absolute;
-        left: 41rem;
+        left: 31rem;
         top: 6rem;
     }
 
@@ -2489,7 +2489,7 @@
         position: relative;
         top: 5.5rem;
         color: #fff;
-        left: -35rem;
+        left: -30rem;
         font-size: 1.5rem;
         font-weight: 700;
         z-index: 1030;
@@ -2507,7 +2507,7 @@
         position: absolute;
         top: 5.5rem;
         color: #fff;
-        left: -17rem;
+        left: -12rem;
         font-size: 1.5rem;
         font-weight: 700;
         z-index: 1030;
@@ -2519,7 +2519,7 @@
         position: absolute;
         top: 5.5rem;
         color: #fff;
-        left: -0rem;
+        left: 4rem;
         font-size: 1.5rem;
         font-weight: 700;
         z-index: 1030;
@@ -2538,11 +2538,11 @@
         cursor: pointer;
     }
     .filterMovies1 {
-        width: 10rem;
+        width: 7rem;
         position: absolute;
         top: 5.5rem;
         color: #fff;
-        left: 36.2rem;
+        left: 33.2rem;
         font-size: 1.5rem;
         font-weight: 700;
         z-index: 1030;
@@ -2766,7 +2766,7 @@
         height: 9rem;
         position: relative;
         top: 0rem;
-        right: 35rem;
+        right: 30rem;
         opacity: .7;
         border-radius: 1rem;
         cursor: pointer;
@@ -2777,7 +2777,7 @@
         height: 9rem;
         position: relative;
         top: -9rem;
-        right: 19rem;
+        right: 15.4rem;
         opacity: .7;
         border-radius: 1rem;
         cursor: pointer;
@@ -2788,7 +2788,7 @@
         height: 9rem;
         position: relative;
         top: -18rem;
-        right: 3rem;
+        right: 1rem;
         opacity: .7;
         border-radius: 1rem;
         cursor: pointer;
@@ -2799,7 +2799,7 @@
         height: 9rem;
         position: relative;
         top: -28.1rem;
-        right: -15rem;
+        right: -14rem;
         opacity: .7;
         border-radius: 1rem;
         cursor: pointer;
@@ -2810,7 +2810,7 @@
         height: 9rem;
         position: relative;
         top: -37rem;
-        right: -34rem;
+        right: -29rem;
         opacity: .7;
         border-radius: 1rem;
         cursor: pointer;
