@@ -1297,7 +1297,7 @@
 
 
 
-@media (380px <=width <=760px) {
+@media screen and (min-width: 350px) and (max-width: 760px) {
 
     .shareOutputTextAA {
         width: 30rem;

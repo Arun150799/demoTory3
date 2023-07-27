@@ -28,26 +28,18 @@
 }
 
 
-@media (350px <= width <=760px) {
+@media screen and (min-width: 350px) and (max-width: 760px) {
     .header {
-        /* width: 60rem; */
-        background-color:#fff;
-        color: #000;
-        height: 3.5rem;
-        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    }
-
-    .header li {
-        display: inline-block;
+        /* Adjust styles specific to the header in this screen size range */
+        /* For example, you can change the height, font-size, etc. */
+        height: 2.5rem;
     }
 
     .NavHome {
-        width: 8rem;
-        color: #000;
-        font-size: 1.2rem;
-        position: absolute;
-        left: 0rem;
-        top: .5rem;
-        font-weight: 500;
+        /* Adjust styles specific to .NavHome in this screen size range */
+        /* For example, you can change the width, font-size, etc. */
+        width: 6rem;
+        font-size: 1rem;
+        font-weight: 700;
     }
 }
