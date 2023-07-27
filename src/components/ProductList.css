@@ -1297,7 +1297,7 @@
 
 
 
-@media screen and (min-width: 350px) and (max-width: 760px) {
+@media only screen and (max-width :760px) and  (min-width:350px) {
 
     .shareOutputTextAA {
         width: 30rem;
@@ -1353,18 +1353,18 @@
     .humbarger1 {
         position: absolute;
         left: 87rem;
-        top: .6rem;
-        width: 2.1rem;
-        height: 1.7rem;
+        top: 1.6rem;
+        width: 3.6rem;
+        height: 3.7rem;
         display: block;
     }
 
     .box2 {
         width: 94.3rem;
-        height: 30rem;
+        height: 40rem;
         position: absolute;
         left: 0rem;
-        top: 3.5rem;
+        top: 4.5rem;
         background-color: #fff;
         color: black;
         border: .1rem #FF7373;
@@ -1373,10 +1373,10 @@
     }
 
     .closeBurger {
-        font-size: 3.5rem;
+        font-size: 5.5rem;
         position: absolute;
         left: 86rem;
-        top: 1rem;
+        top: 3rem;
         width: 3rem;
         font-weight: 500;
     }
@@ -1655,7 +1655,7 @@
     }
 
     .resUserName {
-        font-size: 1.5rem;
+        font-size: 2.8rem;
         font-weight: 700;
         position: relative;
         bottom: 3.6rem;
@@ -1664,60 +1664,64 @@
     .resYourStory {
         background-color: #FF7373;
         color: #fff;
-        width: 12rem;
-        height: 2.8rem;
+        width: 16rem;
+        height: 4.6rem;
         border: none;
         position: relative;
-        bottom: 2rem;
+        bottom: 2.5rem;
         left: 6rem;
-        font-size: 1.3rem;
+        font-size: 2.3rem;
         border-radius: 1rem;
         cursor: pointer;
+        font-weight: 500;
     }
 
     .resAddStory {
         background-color: #FF7373;
         color: #fff;
-        width: 10em;
-        height: 2.8rem;
+        width: 16rem;
+        height: 4.6rem;
         border: none;
         position: relative;
-        top: 3rem;
-        left: -6rem;
-        font-size: 1.3rem;
+        top: 4rem;
+        left: -9.8rem;
+        font-size: 2.3rem;
         border-radius: 1rem;
         cursor: pointer;
         margin-top: 1rem;
+        font-weight: 500;
     }
 
     .resBookmark {
         background-color: #FF7373;
         color: #fff;
-        width: 10em;
-        height: 2.8rem;
+        width: 16rem;
+        height: 4.6rem;
         border: none;
         position: relative;
-        top: 5rem;
-        left: 41rem;
-        font-size: 1.3rem;
+        top: 5.5rem;
+        left: 37.6rem;
+        font-size: 2.3rem;
         border-radius: 1rem;
         margin-top: 1rem;
+        font-weight: 500;
         /* cursor: pointer; */
     }
 
     .resLogout {
         background-color: #FF7373;
         color: #fff;
-        width: 10em;
-        height: 2.8rem;
+        width: 16rem;
+        height: 4.6rem;
         border: none;
         position: relative;
         top: 7rem;
-        left: 0rem;
-        font-size: 1.3rem;
+        left: -1.4rem;
+        font-size: 2.3rem;
         border-radius: 1rem;
         cursor: pointer;
         margin-top: 1rem;
+        font-weight: 500;
     }
 
     .YourStoryText {
@@ -2477,7 +2481,7 @@
         display: block;
         position: absolute;
         left: 41rem;
-        top: 4rem;
+        top: 6rem;
     }
 
     .filterAll1 {
