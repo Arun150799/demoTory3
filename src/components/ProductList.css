@@ -292,6 +292,7 @@
     width: 1.5rem;
 }
 .noJobFound{
+    width: 10rem;
     padding-top: 1rem;
     position: relative;
     top: 18rem;
@@ -1297,7 +1298,7 @@
 
 
 
-@media only screen and (max-width :600px) {
+@media only screen and (max-width :600px) and (min-width :400px) {
 
     .shareOutputTextAA {
         width: 30rem;
@@ -2306,9 +2307,9 @@
         display: list-item;
         position: relative;
         top: 16rem;
-        left: 30rem;
+        left: 18rem;
         padding-top: 1.7rem;
-        background-color: #000;
+        background-color: black;
         width: 34rem;
         height: 50rem;
         border-radius: 1rem;
@@ -2375,7 +2376,7 @@
         color: #000;
         position: relative;
         background-color: #fff;
-        left: 38rem;
+        left: 26rem;
         top: 17.5rem;
         z-index: 1010;
         font-size: 2.5rem;
@@ -2390,7 +2391,7 @@
         color: #000;
         position: relative;
         background-color: #fff;
-        left: 40rem;
+        left: 28rem;
         top: 18.5rem;
         z-index: 1010;
         font-size: 2.5rem;
@@ -2407,7 +2408,7 @@
         display: list-item;
         position: relative;
         top: 16rem;
-        left: 30rem;
+        left: 18rem;
         padding-top: 2.7rem;
         background-color: #000;
         width: 34rem;
