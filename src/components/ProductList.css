@@ -2882,6 +2882,7 @@
 
 
 @media only screen and (max-width :425px) {
+       
 
     .shareOutputTextAA {
         width: 15.9rem;
@@ -2935,7 +2936,7 @@
 
     .humbarger1 {
         position: absolute;
-        left: 23.2rem;
+        left: 22rem;
         top: .3rem;
         width: 2.5rem;
         height: 2.7rem;
@@ -2943,7 +2944,7 @@
     }
 
     .box2 {
-        width: 26rem;
+        width: 24.8rem;
         height: 20rem;
         position: absolute;
         left: 0rem;
@@ -3264,7 +3265,7 @@
         border: none;
         position: relative;
         bottom: 0rem;
-        left: -1rem;
+        left: 0rem;
         font-size: 1.5rem;
         border-radius: 1rem;
         cursor: pointer;
@@ -3704,14 +3705,14 @@
         display: block;
     }
 
-    .jobFormateRes {
+   .jobFormateRes {
         margin-top: 2rem;
         background-color: #000;
         height: 37rem;
         width: 20rem;
         position: relative;
         top: -44rem;
-        left: 1.8rem;
+        left: 1.1rem;
         border-radius: 1rem;
 
     }
@@ -3769,7 +3770,7 @@
         cursor: pointer;
         position: absolute;
         top: 14rem;
-        right: -2.4rem;
+        right: -2rem;
         width: 1.5rem;
 
     }
@@ -4020,7 +4021,7 @@
         display: list-item;
         position: relative;
         top: -5rem;
-        left: 1.8rem;
+        left: 1.2rem;
         padding-top: 2.7rem;
         background-color: #020202;
         width: 20rem;
@@ -4094,7 +4095,7 @@
     .filters2 {
         display: block;
         position: absolute;
-        left: 13.8rem;
+        left: 14.2rem;
         top: 6rem;
     }
 
@@ -4103,7 +4104,7 @@
         position: relative;
         top: -.5rem;
         color: #c02727;
-        left: -16.5rem;
+        left: -16.2rem;
         font-size: .8rem;
         font-weight: 700;
         z-index: 1030;
@@ -4141,11 +4142,11 @@
     }
 
     .filterTravel1 {
-        width: 10rem;
+        width: 3rem;
         position: absolute;
         top: -.5rem;
         color: #9d1010;
-        left: -.4rem;
+        left: 1.5rem;
         font-size: .8rem;
         font-weight: 700;
         z-index: 1030;
@@ -4153,11 +4154,11 @@
     }
 
     .filterMovies1 {
-        width: 5rem;
+        width: 4rem;
         position: absolute;
         top: -.5rem;
         color: #ca2424;
-        left: 6.4rem;
+        left: 5.7rem;
         font-size: .8rem;
         font-weight: 700;
         z-index: 1030;
@@ -4236,11 +4237,12 @@
     }
 
     .countRes {
+        width: 2rem;
         font-size: 1.1rem;
         z-index: 1000;
         color: #fff;
         position: relative;
-        left: 8rem;
+        left: 17.7rem;
         top: 24rem;
     }
 
@@ -4372,9 +4374,9 @@
     .filterA1 {
         width: 4rem;
         height: 3rem;
-        position: absolute;
-        top: -1rem;
-        right: 19.8rem;
+        position: relative;
+        top: -2rem;
+        right: 16rem;
         opacity: .7;
         border-radius: 1rem;
         cursor: pointer;
@@ -4385,7 +4387,7 @@
         height: 3rem;
         position: absolute;
         top: -1rem;
-        right: 14.7rem;
+        right: 14.2rem;
         opacity: .7;
         border-radius: 1rem;
         cursor: pointer;
@@ -4396,9 +4398,9 @@
         height: 3rem;
         position: absolute;
         top: -1rem;
-        right: 9.5rem;
+        right: 9.4rem;
         opacity: .7;
-        border-radius: 1rem;
+        border-radius: 1rem; 
         cursor: pointer;
     }
 
@@ -4407,8 +4409,8 @@
         height: 3rem;
         position: absolute;
         top: -1rem;
-        right: 4.2rem;
-        opacity: .7;
+        right: 5rem;
+        opacity: .7;  
         border-radius: 1rem;
         cursor: pointer;
     }
@@ -4418,7 +4420,7 @@
         height: 3rem;
         position: absolute;
         top: -1rem;
-        right: -1rem;
+        right: .5rem;
         opacity: .7;
         border-radius: 1rem;
         cursor: pointer;
