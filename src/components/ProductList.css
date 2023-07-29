@@ -291,7 +291,8 @@
     top: 16rem;
     width: 1.5rem;
 }
-.noJobFound{
+
+.noJobFound {
     width: 10rem;
     padding-top: 1rem;
     position: relative;
@@ -482,6 +483,14 @@
     left: 20rem;
     top: 1rem;
     width: 2.5rem;
+}
+
+.closeButton133 {
+    cursor: pointer;
+    position: absolute;
+    left: 17.5rem;
+    top: .5rem;
+    width: 2rem;
 }
 
 
@@ -1298,14 +1307,14 @@
 
 
 
-@media only screen and (max-width :600px) and (min-width :400px) {
+@media only screen and (max-width :600px) {
 
     .shareOutputTextAA {
-        width: 30rem;
-        height: 3rem;
+        width: 15.9rem;
+        height: 1.7rem;
         position: absolute;
-        right: 0rem;
-        top: 28.4rem;
+        left: .1rem;
+        top: 16.4rem;
         color: red;
         background-color: #D9D9D9;
         z-index: 1150;
@@ -1313,11 +1322,11 @@
         padding-right: 2rem;
         padding-top: .3rem;
         padding-bottom: .4rem;
-        font-size: 1.5rem;
+        font-size: .8rem;
         border-radius: 1rem;
         font-weight: 500;
     }
-    
+
     .NavSignup {
         width: 8rem;
         background-color: #FF7373;
@@ -1350,22 +1359,21 @@
 
     }
 
-
     .humbarger1 {
         position: absolute;
-        left: 67rem;
-        top: 1.6rem;
-        width: 3.6rem;
-        height: 3.7rem;
+        left: 21.4rem;
+        top: .3rem;
+        width: 2.5rem;
+        height: 2.7rem;
         display: block;
     }
 
     .box2 {
-        width: 73.2rem;
-        height: 40rem;
+        width: 27.9rem;
+        height: 20rem;
         position: absolute;
         left: 0rem;
-        top: 4.5rem;
+        top: 3.5rem;
         background-color: #fff;
         color: black;
         border: .1rem #FF7373;
@@ -1374,10 +1382,10 @@
     }
 
     .closeBurger {
-        font-size: 5.5rem;
+        font-size: 3.0rem;
         position: absolute;
-        left: 66rem;
-        top: 3rem;
+        left: 22rem;
+        top: 1rem;
         width: 3rem;
         font-weight: 500;
     }
@@ -1391,8 +1399,8 @@
         border-radius: 1rem;
         border: none;
         position: relative;
-        top: 8rem;
-        left: 1rem;
+        top: 5rem;
+        left: 5rem;
         cursor: pointer;
         font-weight: 500;
     }
@@ -1406,59 +1414,64 @@
         border-radius: 1rem;
         border: none;
         position: relative;
-        left: -10rem;
-        top: 15rem;
+        left: -6rem;
+        top: 10rem;
         font-weight: 500;
         cursor: pointer;
     }
 
     .signupPortion1 {
-        width: 40rem;
-        height: 60rem;
+        width: 20rem;
+        height: 30rem;
         background-color: #fff;
         color: #000;
         box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
         border-radius: 1rem;
+        z-index: 1220;
+        position: relative;
+        right: 25rem;
+        top: -36rem;
     }
 
     .signupText2 {
         color: #000;
         font-weight: 700;
-        font-size: 3rem;
+        font-size: 1.6rem;
         position: relative;
-        top: 9.4rem;
+        top: 3rem;
+        left: .5rem;
     }
 
 
     .signupLebel21 {
         position: relative;
-        right: -9.7rem;
-        top: 22rem;
+        right: 0rem;
+        top: 10rem;
         font-weight: 700;
-        font-size: 2.2rem;
+        font-size: 1.3rem;
     }
 
     .signupInput21 {
-        width: 20rem;
-        height: 3rem;
+        width: 12rem;
+        height: 2rem;
         position: relative;
-        left: -13.1rem;
-        top: 3.7rem;
+        left: .1rem;
+        top: .7rem;
         border: .1rem solid black;
-        font-size: 1.7rem;
+        font-size: 1.1rem;
+        padding-left: 2rem;
     }
 
     .SignupButton1 {
         position: relative;
-        top: 30.2rem;
+        top: 13.2rem;
         right: 1rem;
-        width: 11rem;
-        height: 3.2rem;
+        width: 10rem;
+        height: 3rem;
         border: none;
         background: #73ABFF;
         color: #fff;
-        font-size: 1.8rem;
-
+        font-size: 1.5rem;
         border-radius: .9rem;
         cursor: pointer;
     }
@@ -1466,112 +1479,118 @@
 
     .eye11 {
         position: relative;
-        left: 14.9rem;
-        top: 22.5rem;
-        width: 2rem;
+        left: 10.9rem;
+        top: 7.9rem;
+        width: 1.3rem;
     }
 
     .signupLebel11 {
         position: relative;
-        right: -7rem;
-        top: 13.6rem;
+        right: 0rem;
+        top: 8rem;
         font-weight: 700;
-        font-size: 2.2rem;
+        font-size: 1.3rem;
     }
 
     .signupInput11 {
-        width: 20rem;
-        height: 3rem;
+        width: 12rem;
+        height: 2rem;
         position: relative;
-        left: -13rem;
-        top: 3.6rem;
+        left: 0rem;
+        top: 0.6rem;
         border: .1rem solid black;
-        font-size: 1.7rem;
+        font-size: 1.1rem;
+        padding-left: 2rem;
     }
 
     .loginPortion1 {
-        width: 40rem;
-        height: 60rem;
+        width: 20rem;
+        height: 30rem;
         background-color: #fff;
         color: #000;
         box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
         border-radius: 1rem;
         z-index: 1220;
-
+        position: relative;
+        right: 25rem;
+        top: -36rem;
     }
 
     .closeButton11 {
         cursor: pointer;
-        position: relative;
-        left: 31rem;
-        top: -3rem;
-        width: 3.5rem;
+        position: absolute;
+        left: 17.5rem;
+        top: .5rem;
+        width: 2rem;
+
     }
 
     .LoginButton1 {
         position: relative;
-        top: 30.2rem;
+        top: 12.2rem;
         right: 1rem;
-        width: 11rem;
-        height: 3.2rem;
+        width: 10rem;
+        height: 3rem;
         border: none;
         background: #73ABFF;
         color: #fff;
-        font-size: 1.8rem;
-
+        font-size: 1.5rem;
         border-radius: .9rem;
         cursor: pointer;
     }
 
     .loginLebel21 {
         position: relative;
-        right: -9.7rem;
-        top: 22rem;
+        right: 0rem;
+        top: 8rem;
         font-weight: 700;
-        font-size: 2.2rem;
+        font-size: 1.3rem;
     }
 
     .loginInput22 {
-        width: 20rem;
-        height: 3rem;
+        width: 12rem;
+        height: 2rem;
         position: relative;
-        left: -13.1rem;
-        top: 3.7rem;
+        left: .1rem;
+        top: .7rem;
         border: .1rem solid black;
-        font-size: 1.7rem;
+        font-size: 1.1rem;
+        padding-left: 2rem;
     }
 
     .loginLebel11 {
         position: relative;
-        right: -7rem;
-        top: 13.6rem;
+        right: 0rem;
+        top: 4.6rem;
         font-weight: 700;
-        font-size: 2.2rem;
+        font-size: 1.3rem;
     }
 
     .loginInput11 {
-        width: 20rem;
-        height: 3rem;
+        width: 12rem;
+        height: 2rem;
         position: relative;
-        left: -13rem;
-        top: 3.6rem;
+        left: 0rem;
+        top: 0.6rem;
         border: .1rem solid black;
-        font-size: 1.7rem;
+        font-size: 1.1rem;
+        padding-left: 2rem;
     }
 
     .loginText11 {
         color: #000;
         font-weight: 700;
-        font-size: 3rem;
+        font-size: 1.6rem;
         position: relative;
-        top: 9.4rem;
+        top: 3rem;
+        left: .5rem;
     }
 
     .eye23 {
         position: relative;
-        left: 14.9rem;
-        top: 22.5rem;
-        width: 2rem;
+        left: 10.9rem;
+        top: 5.9rem;
+        width: 1.3rem;
     }
 
     .hamburger {
@@ -1646,32 +1665,32 @@
     }
 
     .resUserPic {
-        width: 5rem;
-        height: 5rem;
+        width: 2.5rem;
+        height: 2.5rem;
         border-radius: 50%;
         position: relative;
-        right: 15rem;
+        right: 10rem;
         top: 1rem;
 
     }
 
     .resUserName {
-        font-size: 2.8rem;
+        font-size: 1.6rem;
         font-weight: 700;
         position: relative;
-        bottom: 3.6rem;
+        bottom: 1.9rem;
     }
 
     .resYourStory {
         background-color: #FF7373;
         color: #fff;
-        width: 16rem;
-        height: 4.6rem;
+        width: 10rem;
+        height: 2.6rem;
         border: none;
         position: relative;
-        bottom: 2.5rem;
-        left: 6rem;
-        font-size: 2.3rem;
+        bottom: 0rem;
+        left: -1rem;
+        font-size: 1.5rem;
         border-radius: 1rem;
         cursor: pointer;
         font-weight: 500;
@@ -1680,13 +1699,13 @@
     .resAddStory {
         background-color: #FF7373;
         color: #fff;
-        width: 16rem;
-        height: 4.6rem;
+        width: 10rem;
+        height: 2.6rem;
         border: none;
-        position: relative;
-        top: 4rem;
-        left: -9.8rem;
-        font-size: 2.3rem;
+        position: absolute;
+        top: 7.5rem;
+        left: 8rem;
+        font-size: 1.5rem;
         border-radius: 1rem;
         cursor: pointer;
         margin-top: 1rem;
@@ -1696,13 +1715,13 @@
     .resBookmark {
         background-color: #FF7373;
         color: #fff;
-        width: 16rem;
-        height: 4.6rem;
+        width: 10rem;
+        height: 2.6rem;
         border: none;
-        position: relative;
-        top: 5.5rem;
-        left: 27rem;
-        font-size: 2.3rem;
+        position: absolute;
+        top: 11rem;
+        left: 8rem;
+        font-size: 1.5rem;
         border-radius: 1rem;
         margin-top: 1rem;
         font-weight: 500;
@@ -1712,13 +1731,13 @@
     .resLogout {
         background-color: #FF7373;
         color: #fff;
-        width: 16rem;
-        height: 4.6rem;
+        width: 10rem;
+        height: 2.6rem;
         border: none;
-        position: relative;
-        top: 7rem;
-        left: -1.4rem;
-        font-size: 2.3rem;
+        position: absolute;
+        top: 14.5rem;
+        left: 8rem;
+        font-size: 1.5rem;
         border-radius: 1rem;
         cursor: pointer;
         margin-top: 1rem;
@@ -1859,10 +1878,10 @@
 
     .storyPortion {
         position: absolute;
-        top: 0rem;
-        right: 25rem;
-        width: 44rem;
-        height: 80rem;
+        top: .5rem;
+        right: 18.6rem;
+        width: 23rem;
+        height: 34rem;
         background-color: #fff;
         color: #000;
         box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
@@ -1870,55 +1889,53 @@
     }
 
     .createStory1 {
-        position: relative;
-        top: 54.4rem;
-        left: -17.5rem;
-        width: 4rem;
-        height: 4rem;
+        position: absolute;
+        top: 30.4rem;
+        left: 0.5rem;
+        width: 2.8rem;
+        height: 2.3rem;
         border: none;
         background-color: #fff;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         border-radius: .6rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 700;
         cursor: pointer;
-        padding-top: 2rem;
-        padding-bottom: 4rem;
+
     }
 
     .closeButtonAdd {
-        cursor: pointer;
-        position: relative;
-        left: 16rem;
+        position: absolute;
+        left: 20rem;
         top: 1rem;
-        width: 4rem;
+        width: 2rem;
     }
 
     .storyAddText {
         width: 30rem;
-        position: relative;
-        left: 5.2rem;
+        position: absolute;
+        left: -2rem;
         top: 1rem;
-        font-size: 3rem;
+        font-size: 1rem;
         font-weight: 700;
     }
 
     .slidePart {
         position: relative;
-        left: 1rem;
-        top: 0rem;
-        width: 4rem;
-        height: 3.5rem;
+        left: -.5rem;
+        top: 1.6rem;
+        width: 1.7rem;
+        height: 1.5rem;
         border: none;
         background-color: #fff;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         border-radius: .6rem;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 700;
         cursor: pointer;
         display: list-item;
         padding: 1rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
         text-decoration: none;
         list-style-type: none;
     }
@@ -1959,94 +1976,94 @@
 
     .postButton1 {
         border: none;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         background-color: #FF7373;
         color: #fff;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: .8rem;
-        padding-bottom: .8rem;
-        position: relative;
-        top: 32.5rem;
-        right: -7rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: .3rem;
+        padding-bottom: .3rem;
+        position: absolute;
+        top: 18.9rem;
+        right: 7rem;
         border-radius: 1rem;
         cursor: pointer;
     }
 
     .formInput14 {
-        width: 30.9rem;
-        height: 3.2rem;
+        width: 16rem;
+        height: 2.2rem;
         position: relative;
-        left: -8.7rem;
-        top: 3rem;
+        left: -5.9rem;
+        top: 2.6rem;
         border: .1rem solid black;
         padding-left: 1rem;
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 
     .formInput4 {
-        font-size: 2rem;
+        font-size: 1.3rem;
         font-weight: 700;
         position: relative;
-        top: 23rem;
-        left: 9.6rem;
+        left: 6rem;
+        top: 0rem;
     }
 
     .formInput3 {
-        font-size: 2rem;
+        font-size: 1.3rem;
         font-weight: 700;
         position: relative;
-        left: 8.3rem;
-        top: 18rem;
+        left: 4.8rem;
+        top: -3rem;
     }
 
     .formInput13 {
-        width: 30rem;
-        height: 3.2rem;
+        width: 14.5rem;
+        height: 2.2rem;
         position: relative;
-        left: -6.2rem;
-        top: 3.3rem;
+        left: -3.9rem;
+        top: 2.6rem;
         border: .1rem solid black;
         padding-left: 1rem;
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 
     .formInput2 {
-        font-size: 2rem;
+        font-size: 1.3rem;
         font-weight: 700;
         position: relative;
-        left: 11rem;
-        top: 9rem;
+        left: -1.4rem;
+        top: -4rem;
     }
 
     .formInput12 {
-        width: 30rem;
-        height: 7.2rem;
+        width: 14.5rem;
+        height: 2.2rem;
         position: relative;
-        left: -11.4rem;
-        top: 6rem;
+        left: 4.2rem;
+        top: 0.6rem;
         border: .1rem solid black;
         padding-left: 1rem;
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 
     .formInput1 {
-        font-size: 2rem;
+        font-size: 1.3rem;
         font-weight: 700;
         position: relative;
-        left: 9rem;
-        top: 4rem;
+        left: 6rem;
+        top: -7rem;
     }
 
     .formInput11 {
-        width: 30rem;
-        height: 3.2rem;
+        width: 14.5rem;
+        height: 2.2rem;
         position: relative;
-        left: -7.9rem;
-        top: 4rem;
+        left: -5.9rem;
+        top: 2.6rem;
         border: .1rem solid black;
         padding-left: 1rem;
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 
     .closeButton3 {
@@ -2115,18 +2132,18 @@
     .jobFormateRes {
         margin-top: 2rem;
         background-color: #000;
-        height: 47rem;
-        width: 34rem;
+        height: 37rem;
+        width: 20rem;
         position: relative;
-        top: -24rem;
-        left: 18rem;
+        top: -44rem;
+        left: 1.1rem;
         border-radius: 1rem;
 
     }
 
     .imgSizeRes {
-        width: 36.4rem;
-        height: 33rem;
+        width: 22.5rem;
+        height: 28rem;
         position: relative;
         left: -2.5rem;
         border-radius: 1rem;
@@ -2134,20 +2151,20 @@
 
     .jobFormateHeadingRes {
         color: #fff;
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 500;
         position: absolute;
         left: 1rem;
-        top: 33.5rem;
+        top: 28rem;
     }
 
     .jobFormateDescriptionRes {
-        width: 34rem;
+        width: 22rem;
         color: #fff;
-        font-size: 1.6rem;
+        font-size: .8rem;
         position: absolute;
         left: 0rem;
-        top: 38.2rem;
+        top: 31.2rem;
     }
 
     .modalBookmark {
@@ -2164,19 +2181,38 @@
         justify-content: center;
     }
 
+
+    .leftArrow1 {
+        cursor: pointer;
+        position: absolute;
+        top: 19rem;
+        right: 14rem;
+        width: 1.5rem;
+    }
+
+    .rightArrow1 {
+        cursor: pointer;
+        position: absolute;
+        top: 19rem;
+        right: 21rem;
+        width: 1.5rem;
+
+    }
+
     .jobFormateResO {
         background-color: #000;
         position: relative;
-        top: -5rem;
-        width: 40rem;
-        height: 60rem;
+        top: -12rem;
+        right: 9.3rem;
+        width: 20rem;
+        height: 30rem;
         border-radius: 1rem;
 
     }
 
     .imgSize10 {
-        width: 40rem;
-        height: 32rem;
+        width: 20rem;
+        height: 19rem;
         position: absolute;
         left: 0rem;
         border-radius: 1rem;
@@ -2184,47 +2220,49 @@
 
     .jobFormateHeading10 {
         color: #fff;
-        font-size: 3.3rem;
+        font-size: 1.5rem;
         font-weight: 500;
-        position: relative;
-        left: -11rem;
-        top: 33rem;
+        position: absolute;
+        left: .5rem;
+        top: 19.2rem;
     }
 
     .jobFormateDescription10 {
-        width: 40rem;
+        width: 20rem;
         color: #fff;
-        font-size: 1.4rem;
+        font-size: .9rem;
         position: relative;
         left: 0rem;
-        top: 34.2rem;
+        top: 21.2rem;
     }
 
     .shareIcon0 {
-        width: 3rem;
-        height: 3rem;
-        position: relative;
-        left: 18.5rem;
-        top: -6rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        position: absolute;
+        left: 17.5rem;
+        top: 1.2rem;
         cursor: pointer;
     }
 
     .closebutton000 {
-        position: relative;
-        right: 59.5rem;
-        bottom: 32rem;
+        position: absolute;
+        top: 4.9rem;
+        left: 4rem;
         cursor: pointer;
-        font-size: 4rem;
+        font-size: 2rem;
         font-weight: 500;
         color: #fff;
+        margin-bottom: 48rem;
+        margin-right: 34rem;
     }
 
     .bookmark000 {
-        width: 3rem;
-        height: 4rem;
+        width: 1.6rem;
+        height: 2.3rem;
         position: absolute;
-        right: 34rem;
-        top: 48.1rem;
+        right: 17rem;
+        top: 27rem;
         cursor: pointer;
     }
 
@@ -2238,17 +2276,17 @@
         width: 4rem;
         color: white;
         position: absolute;
-        top: 48.8rem;
-        right: 2rem;
-        font-size: 2.2rem;
+        top: 27.3rem;
+        right: 0rem;
+        font-size: 1.2rem;
     }
 
     .like000 {
-        width: 4.3rem;
-        height: 4.3rem;
+        width: 2.3rem;
+        height: 2.3rem;
         position: absolute;
-        right: 6rem;
-        top: 48.1rem;
+        right: 3rem;
+        top: 27.1rem;
         cursor: pointer;
     }
 
@@ -2272,11 +2310,11 @@
     }
 
     .shareOutputText0 {
-        width: 35rem;
-        height: 3rem;
+        width: 15.9rem;
+        height: 1.7rem;
         position: absolute;
-        right: 1.1rem;
-        top: 28.4rem;
+        left: .1rem;
+        top: 16.4rem;
         color: red;
         background-color: #D9D9D9;
         z-index: 1150;
@@ -2284,17 +2322,17 @@
         padding-right: 2rem;
         padding-top: .3rem;
         padding-bottom: .4rem;
-        font-size: 1.5rem;
+        font-size: .8rem;
         border-radius: 1rem;
         font-weight: 500;
     }
 
     .bookmark111 {
-        width: 3.1rem;
-        height: 4rem;
+        width: 1.7rem;
+        height: 2.4rem;
         position: absolute;
-        right: 33.9rem;
-        top: 48.1rem;
+        right: 16.9rem;
+        top: 27rem;
         cursor: pointer;
     }
 
@@ -2303,58 +2341,57 @@
     }
 
     .jobFormateReso {
-        margin-top: 2rem;
+        margin-top: 3rem;
         display: list-item;
         position: relative;
-        top: 16rem;
-        left: 18rem;
-        padding-top: 1.7rem;
-        background-color: black;
-        width: 34rem;
-        height: 50rem;
+        top: -5rem;
+        left: 1rem;
+        padding-top: 2.7rem;
+        background-color: #020202;
+        width: 20rem;
+        height: 30rem;
         border-radius: 1rem;
+        display: block;
 
     }
 
     .jobFormateRes1 {
-        margin-top: 2rem;
-        display: list-item;
-        position: relative;
-        top: 0rem;
-        left: 0rem;
-        padding-top: 1.7rem;
         background-color: #000;
-        width: 34rem;
-        height: 50rem;
+        position: fixed;
+        top: 5rem;
+        right: 22.5rem;
+        width: 20rem;
+        height: 30rem;
         border-radius: 1rem;
 
     }
 
     .imgSizeReso {
-        width: 36.5rem;
-        height: 40rem;
+        width: 22.5rem;
+        height: 24rem;
         position: relative;
         left: -2.5rem;
-        top: -2rem;
+        top: -2.8rem;
         border-radius: 1rem;
     }
 
     .jobFormateHeadingReso {
         color: #fff;
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 500;
         position: absolute;
         left: 1rem;
-        top: 39.5rem;
+        top: 24rem;
     }
 
     .jobFormateDescriptionReso {
-        width: 34rem;
+        width: 21rem;
         color: #fff;
-        font-size: 1.6rem;
+        font-size: .8rem;
         position: absolute;
-        left: 0rem;
-        top: 44.2rem;
+        left: 1rem;
+        top: 27rem;
+
     }
 
     .YourBookmarkRes {
@@ -2376,10 +2413,10 @@
         color: #000;
         position: relative;
         background-color: #fff;
-        left: 26rem;
-        top: 17.5rem;
+        left: 0rem;
+        top: -2.5rem;
         z-index: 1010;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         font-weight: 700;
         margin-top: 10rem;
         padding-bottom: 1rem;
@@ -2391,13 +2428,13 @@
         color: #000;
         position: relative;
         background-color: #fff;
-        left: 28rem;
-        top: 18.5rem;
+        left: 4rem;
+        top: -2.5rem;
         z-index: 1010;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         font-weight: 700;
         margin-top: 10rem
-        }
+    }
 
     .produtsList22 {
         display: block;
@@ -2407,21 +2444,22 @@
         margin-top: 3rem;
         display: list-item;
         position: relative;
-        top: 16rem;
-        left: 18rem;
+        top: -5rem;
+        left: 1rem;
         padding-top: 2.7rem;
-        background-color: #000;
-        width: 34rem;
-        height: 50rem;
+        background-color: #020202;
+        width: 20rem;
+        height: 30rem;
         border-radius: 1rem;
+        display: block;
     }
 
     .editIcon00 {
         width: 1.7rem;
         z-index: 1010;
         position: absolute;
-        top: 51.3rem;
-        right: 17.7rem;
+        top: 31.3rem;
+        right: 12.7rem;
         cursor: pointer;
     }
 
@@ -2434,16 +2472,16 @@
         box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
         border-radius: 1rem;
         position: absolute;
-        top: 50.9rem;
-        left: 16rem;
+        top: 31.3rem;
+        left: 7rem;
         cursor: pointer;
         font-weight: 500;
         font-size: 1.7rem;
     }
 
     .imgSizeResoo {
-        width: 36.5rem;
-        height: 40rem;
+        width: 22.5rem;
+        height: 24rem;
         position: relative;
         left: -2.5rem;
         top: -2.8rem;
@@ -2452,46 +2490,45 @@
 
 
     .imgSizeRes1 {
-        width: 34.3rem;
-        height: 33rem;
-        position: relative;
+        width: 20rem;
+        height: 19rem;
+        position: absolute;
         left: 0rem;
-        top: -2rem;
         border-radius: 1rem;
     }
 
     .jobFormateHeadingRes1 {
         color: #fff;
-        font-size: 3rem;
+        font-size: 1.5rem;
         font-weight: 500;
         position: absolute;
         left: 1rem;
-        top: 33.5rem;
+        top: 19rem;
     }
 
     .jobFormateDescriptionRes1 {
-        width: 34rem;
+        width: 19rem;
         color: #fff;
-        font-size: 1.6rem;
+        font-size: .9rem;
         position: absolute;
         left: 0rem;
-        top: 38.2rem;
+        top: 21.2rem;
     }
 
     .filters2 {
         display: block;
         position: absolute;
-        left: 31rem;
+        left: 33.8rem;
         top: 6rem;
     }
 
     .filterAll1 {
         width: 10rem;
         position: relative;
-        top: 5.5rem;
+        top: -.5rem;
         color: #fff;
-        left: -30rem;
-        font-size: 1.5rem;
+        left: -36rem;
+        font-size: 1rem;
         font-weight: 700;
         z-index: 1030;
         cursor: pointer;
@@ -2506,10 +2543,10 @@
     .filterHealth1 {
         width: 10rem;
         position: absolute;
-        top: 5.5rem;
+        top: -0.5rem;
         color: #fff;
-        left: -12rem;
-        font-size: 1.5rem;
+        left: -30.6rem;
+        font-size: 1rem;
         font-weight: 700;
         z-index: 1030;
         cursor: pointer;
@@ -2518,10 +2555,10 @@
     .filterFood1 {
         width: 5rem;
         position: absolute;
-        top: 5.5rem;
+        top: -.5rem;
         color: #fff;
-        left: 4rem;
-        font-size: 1.5rem;
+        left: -23rem;
+        font-size: 1rem;
         font-weight: 700;
         z-index: 1030;
         cursor: pointer;
@@ -2530,21 +2567,22 @@
     .filterTravel1 {
         width: 10rem;
         position: absolute;
-        top: 5.5rem;
+        top: -.5rem;
         color: #fff;
-        left: 16.4rem;
-        font-size: 1.5rem;
+        left: -20.4rem;
+        font-size: 1rem;
         font-weight: 700;
         z-index: 1030;
         cursor: pointer;
     }
+
     .filterMovies1 {
         width: 7rem;
         position: absolute;
-        top: 5.5rem;
+        top: -.5rem;
         color: #fff;
-        left: 33.2rem;
-        font-size: 1.5rem;
+        left: -13.4rem;
+        font-size: 1rem;
         font-weight: 700;
         z-index: 1030;
         cursor: pointer;
@@ -2553,22 +2591,21 @@
 
     .filters {
         display: none;
-
     }
 
     .shareIconRes1 {
         position: absolute;
         top: 1.5rem;
-        left: 30rem;
-        width: 3rem;
+        left: 17rem;
+        width: 2rem;
     }
 
     .closebutton00Res {
-        position: relative;
-        right: 55rem;
-        bottom: 23rem;
+        position: absolute;
+        top: 5rem;
+        left: 4.5rem;
         cursor: pointer;
-        font-size: 4rem;
+        font-size: 2.4rem;
         font-weight: 500;
         color: #fff;
     }
@@ -2593,42 +2630,42 @@
     }
 
     .bookmark00Res {
-        width: 2.9rem;
-        height: 4rem;
+        width: 1.9rem;
+        height: 2.3rem;
         position: relative;
-        top: 11rem;
-        right: 11.1rem;
+        top: 26.5rem;
+        right: 6.5rem;
         z-index: 1200;
 
     }
 
     .bookmark11Res {
-        width: 3rem;
-        height: 4rem;
+        width: 2rem;
+        height: 2.4rem;
         position: relative;
-        top: 11rem;
-        right: 14rem;
+        top: 26.5rem;
+        right: 8.4rem;
         z-index: 1200;
 
     }
 
     .like00Res {
-        width: 3.8rem;
-        height: 3.8rem;
+        width: 2.4rem;
+        height: 2.4rem;
         position: absolute;
-        right: 5rem;
-        top: 46.1rem;
+        right: 3rem;
+        top: 26.6rem;
         cursor: pointer;
         z-index: 1200;
     }
 
     .countRes {
-        font-size: 2rem;
+        font-size: 1.1rem;
         z-index: 1000;
         color: #fff;
         position: relative;
-        left: 14rem;
-        top: 7rem;
+        left: 8rem;
+        top: 24rem;
     }
 
     .countButtonRes {
@@ -2638,10 +2675,10 @@
 
     .editPortion1 {
         position: absolute;
-        top: 0rem;
-        right: 25rem;
-        width: 44rem;
-        height: 80rem;
+        top: .5rem;
+        right: 18.6rem;
+        width: 23rem;
+        height: 34rem;
         background-color: #fff;
         color: #000;
         box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
@@ -2651,98 +2688,95 @@
 
     .editClose1 {
         cursor: pointer;
-        position: relative;
-        left: 37rem;
-        top: -3rem;
-        width: 4rem;
+        position: absolute;
+        left: 19.5rem;
+        top: .5rem;
+        width: 2rem;
     }
 
     .updateText1 {
         width: 30rem;
-        position: relative;
-        left: 5.2rem;
-        top: 8rem;
-        font-size: 3rem;
+        position: absolute;
+        left: -3rem;
+        top: 0rem;
+        font-size: 1.3rem;
         font-weight: 700;
     }
 
     .formInput011 {
-        font-size: 2rem;
-        font-weight: 700;
+        font-size: 1.3rem;
+        font-weight: 500;
         position: relative;
-        left: 2rem;
-        top: 13rem;
+        left: -6.2rem;
+        top: 3rem;
     }
 
     .formInput211 {
-        width: 30rem;
-        height: 3.2rem;
+        width: 19rem;
+        height: 2.2rem;
         position: relative;
-        left: -7.9rem;
-        top: 4rem;
+        left: 7.1rem;
+        top: 1rem;
         border: .1rem solid black;
         padding-left: 1rem;
-        font-size: 1.4rem;
+
     }
 
 
 
 
     .formInput244 {
-        width: 30.9rem;
-        height: 3.2rem;
+        width: 20rem;
+        height: 2.2rem;
         position: relative;
-        left: -8.7rem;
-        top: 3rem;
+        left: 7rem;
+        top: 1rem;
         border: .1rem solid black;
         padding-left: 1rem;
-        font-size: 1.4rem;
     }
 
     .formInput044 {
-        font-size: 2rem;
-        font-weight: 700;
+        font-size: 1.3rem;
+        font-weight: 500;
         position: relative;
-        top: 33rem;
-        left: 4.6rem;
+        left: -6.2rem;
+        top: 6rem;
     }
 
     .formInput033 {
-        font-size: 2rem;
-        font-weight: 700;
+        font-size: 1.3rem;
+        font-weight: 500;
         position: relative;
-        left: 3.6rem;
-        top: 26rem;
+        left: -7.2rem;
+        top: 5rem;
     }
 
     .formInput233 {
-        width: 30rem;
-        height: 3.2rem;
+        width: 19rem;
+        height: 2.2rem;
         position: relative;
-        left: -6.2rem;
-        top: 3.3rem;
+        left: 8rem;
+        top: 1rem;
         border: .1rem solid black;
         padding-left: 1rem;
-        font-size: 1.4rem;
     }
 
     .formInput022 {
-        font-size: 2rem;
-        font-weight: 700;
+        font-size: 1.3rem;
+        font-weight: 500;
         position: relative;
-        left: 6rem;
-        top: 17rem;
+        left: -5.5rem;
+        top: 4rem;
     }
 
     .formInput222 {
-        width: 30rem;
-        height: 7.2rem;
+        width: 19rem;
+        height: 2.2rem;
         position: relative;
-        left: -11.4rem;
-        top: 6rem;
+        left: 6.3rem;
+        top: 1rem;
         border: .1rem solid black;
         padding-left: 1rem;
-        font-size: 1.4rem;
     }
 
     .postButton111 {
@@ -2750,68 +2784,68 @@
         font-size: 1.5rem;
         background-color: #FF7373;
         color: #fff;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: .8rem;
-        padding-bottom: .8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
         position: relative;
-        top: 38.5rem;
-        right: -2rem;
+        top: 6.5rem;
+        right: 0rem;
         border-radius: 1rem;
         cursor: pointer;
 
     }
 
     .filterA1 {
-        width: 13rem;
-        height: 9rem;
-        position: relative;
-        top: 0rem;
-        right: 30rem;
+        width: 4.5rem;
+        height: 3rem;
+        position: absolute;
+        top: -1rem;
+        right: 39rem;
         opacity: .7;
         border-radius: 1rem;
         cursor: pointer;
     }
 
     .filterA2 {
-        width: 13rem;
-        height: 9rem;
-        position: relative;
-        top: -9rem;
-        right: 15.4rem;
+        width: 4.5rem;
+        height: 3rem;
+        position: absolute;
+        top: -1rem;
+        right: 33.5rem;
         opacity: .7;
         border-radius: 1rem;
         cursor: pointer;
     }
 
     .filterA3 {
-        width: 13rem;
-        height: 9rem;
-        position: relative;
-        top: -18rem;
-        right: 1rem;
+        width: 4.5rem;
+        height: 3rem;
+        position: absolute;
+        top: -1rem;
+        right: 28.3rem;
         opacity: .7;
         border-radius: 1rem;
         cursor: pointer;
     }
 
     .filterA4 {
-        width: 13rem;
-        height: 9rem;
-        position: relative;
-        top: -28.1rem;
-        right: -14rem;
+        width: 4.5rem;
+        height: 3rem;
+        position: absolute;
+        top: -1rem;
+        right: 23rem;
         opacity: .7;
         border-radius: 1rem;
         cursor: pointer;
     }
 
     .filterA5 {
-        width: 13rem;
-        height: 9rem;
-        position: relative;
-        top: -37rem;
-        right: -29rem;
+        width: 4.5rem;
+        height: 3rem;
+        position: absolute;
+        top: -1rem;
+        right: 13.7rem;
         opacity: .7;
         border-radius: 1rem;
         cursor: pointer;
@@ -2824,6 +2858,3169 @@
         color: #000;
         font-size: 1.5rem;
     }
+
+
+    .leftArrow2 {
+        cursor: pointer;
+        position: absolute;
+        top: 21rem;
+        width: 1.5rem;
+    }
+
+    .rightArrow2 {
+        cursor: pointer;
+        position: absolute;
+        left: 3.3rem;
+        width: 1.5rem;
+
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width :425px) {
+
+    .shareOutputTextAA {
+        width: 15.9rem;
+        height: 1.7rem;
+        position: absolute;
+        left: .1rem;
+        top: 16.4rem;
+        color: red;
+        background-color: #D9D9D9;
+        z-index: 1150;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: .3rem;
+        padding-bottom: .4rem;
+        font-size: .8rem;
+        border-radius: 1rem;
+        font-weight: 500;
+    }
+
+    .NavSignup {
+        width: 8rem;
+        background-color: #FF7373;
+        color: #fff;
+        font-size: 1rem;
+        position: absolute;
+        right: 12rem;
+        top: .8rem;
+        font-weight: 500;
+        border-radius: 1rem;
+        padding-bottom: .5rem;
+        padding-top: .3rem;
+        display: none;
+
+    }
+
+    .NavLogin {
+        width: 7rem;
+        background-color: #73ABFF;
+        color: #fff;
+        font-size: 1rem;
+        position: absolute;
+        right: 3rem;
+        top: .8rem;
+        font-weight: 500;
+        border-radius: 1rem;
+        padding-bottom: .5rem;
+        padding-top: .3rem;
+        display: none;
+
+    }
+
+    .humbarger1 {
+        position: absolute;
+        left: 23.2rem;
+        top: .3rem;
+        width: 2.5rem;
+        height: 2.7rem;
+        display: block;
+    }
+
+    .box2 {
+        width: 26rem;
+        height: 20rem;
+        position: absolute;
+        left: 0rem;
+        top: 3.5rem;
+        background-color: #fff;
+        color: black;
+        border: .1rem #FF7373;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        z-index: 1050;
+    }
+
+    .closeBurger {
+        font-size: 3.0rem;
+        position: absolute;
+        left: 22rem;
+        top: 1rem;
+        width: 3rem;
+        font-weight: 500;
+    }
+
+    .resLogin {
+        background-color: #FF7373;
+        color: #fff;
+        width: 11rem;
+        height: 3rem;
+        font-size: 1.7rem;
+        border-radius: 1rem;
+        border: none;
+        position: relative;
+        top: 5rem;
+        left: 5rem;
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+    .resRegister {
+        background-color: #FF7373;
+        color: #fff;
+        width: 11rem;
+        height: 3rem;
+        font-size: 1.7rem;
+        border-radius: 1rem;
+        border: none;
+        position: relative;
+        left: -6rem;
+        top: 10rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .signupPortion1 {
+        width: 20rem;
+        height: 30rem;
+        background-color: #fff;
+        color: #000;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 1rem;
+        z-index: 1220;
+        position: relative;
+        right: 25rem;
+        top: -36rem;
+    }
+
+    .signupText2 {
+        color: #000;
+        font-weight: 700;
+        font-size: 1.6rem;
+        position: relative;
+        top: 3rem;
+        left: .5rem;
+    }
+
+
+    .signupLebel21 {
+        position: relative;
+        right: 0rem;
+        top: 10rem;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    .signupInput21 {
+        width: 12rem;
+        height: 2rem;
+        position: relative;
+        left: .1rem;
+        top: .7rem;
+        border: .1rem solid black;
+        font-size: 1.1rem;
+        padding-left: 2rem;
+    }
+
+    .SignupButton1 {
+        position: relative;
+        top: 13.2rem;
+        right: 1rem;
+        width: 10rem;
+        height: 3rem;
+        border: none;
+        background: #73ABFF;
+        color: #fff;
+        font-size: 1.5rem;
+        border-radius: .9rem;
+        cursor: pointer;
+    }
+
+
+    .eye11 {
+        position: relative;
+        left: 10.9rem;
+        top: 7.9rem;
+        width: 1.3rem;
+    }
+
+    .signupLebel11 {
+        position: relative;
+        right: 0rem;
+        top: 8rem;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    .signupInput11 {
+        width: 12rem;
+        height: 2rem;
+        position: relative;
+        left: 0rem;
+        top: 0.6rem;
+        border: .1rem solid black;
+        font-size: 1.1rem;
+        padding-left: 2rem;
+    }
+
+    .loginPortion1 {
+        width: 20rem;
+        height: 30rem;
+        background-color: #fff;
+        color: #000;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 1rem;
+        z-index: 1220;
+        position: relative;
+        right: 25rem;
+        top: -36rem;
+    }
+
+    .closeButton11 {
+        cursor: pointer;
+        position: absolute;
+        left: 17.5rem;
+        top: .5rem;
+        width: 2rem;
+
+    }
+
+    .LoginButton1 {
+        position: relative;
+        top: 12.2rem;
+        right: 1rem;
+        width: 10rem;
+        height: 3rem;
+        border: none;
+        background: #73ABFF;
+        color: #fff;
+        font-size: 1.5rem;
+        border-radius: .9rem;
+        cursor: pointer;
+    }
+
+    .loginLebel21 {
+        position: relative;
+        right: 0rem;
+        top: 8rem;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    .loginInput22 {
+        width: 12rem;
+        height: 2rem;
+        position: relative;
+        left: .1rem;
+        top: .7rem;
+        border: .1rem solid black;
+        font-size: 1.1rem;
+        padding-left: 2rem;
+    }
+
+    .loginLebel11 {
+        position: relative;
+        right: 0rem;
+        top: 4.6rem;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    .loginInput11 {
+        width: 12rem;
+        height: 2rem;
+        position: relative;
+        left: 0rem;
+        top: 0.6rem;
+        border: .1rem solid black;
+        font-size: 1.1rem;
+        padding-left: 2rem;
+    }
+
+    .loginText11 {
+        color: #000;
+        font-weight: 700;
+        font-size: 1.6rem;
+        position: relative;
+        top: 3rem;
+        left: .5rem;
+    }
+
+    .eye23 {
+        position: relative;
+        left: 10.9rem;
+        top: 5.9rem;
+        width: 1.3rem;
+    }
+
+    .hamburger {
+        width: 2.1rem;
+        height: 1.7rem;
+        position: absolute;
+        right: 2rem;
+        top: 1rem;
+        cursor: pointer;
+        display: none;
+    }
+
+    .userName {
+        width: 10rem;
+        text-decoration: none;
+        position: relative;
+        top: .5rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+        display: none;
+    }
+
+    .pImg {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        margin-left: 80rem;
+        position: relative;
+        bottom: 2rem;
+        display: none;
+    }
+
+    .bookmarks {
+        position: absolute;
+        left: 68rem;
+        top: .4rem;
+        background-color: #FF7373;
+        color: #fff;
+        border-radius: 1rem;
+        padding-left: 3rem;
+        padding-top: .5rem;
+        padding-right: .6rem;
+        padding-bottom: .5rem;
+        cursor: pointer;
+        display: none;
+
+    }
+
+    .addStory {
+        position: absolute;
+        left: 80rem;
+        top: .4rem;
+        background-color: #FF7373;
+        color: #fff;
+        border-radius: 1rem;
+        padding-left: .7rem;
+        padding-right: .7rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        cursor: pointer;
+        display: none;
+
+    }
+
+    .bookmarkIcon {
+        width: 1rem;
+        position: absolute;
+        left: 69.4rem;
+        top: 1rem;
+        z-index: 1100;
+        cursor: pointer;
+        display: none;
+    }
+
+    .resUserPic {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        position: relative;
+        right: 10rem;
+        top: 1rem;
+
+    }
+
+    .resUserName {
+        font-size: 1.6rem;
+        font-weight: 700;
+        position: relative;
+        bottom: 1.9rem;
+    }
+
+    .resYourStory {
+        background-color: #FF7373;
+        color: #fff;
+        width: 10rem;
+        height: 2.6rem;
+        border: none;
+        position: relative;
+        bottom: 0rem;
+        left: -1rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+    .resAddStory {
+        background-color: #FF7373;
+        color: #fff;
+        width: 10rem;
+        height: 2.6rem;
+        border: none;
+        position: absolute;
+        top: 7.5rem;
+        left: 8rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+
+    .resBookmark {
+        background-color: #FF7373;
+        color: #fff;
+        width: 10rem;
+        height: 2.6rem;
+        border: none;
+        position: absolute;
+        top: 11rem;
+        left: 8rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        font-weight: 500;
+        /* cursor: pointer; */
+    }
+
+    .resLogout {
+        background-color: #FF7373;
+        color: #fff;
+        width: 10rem;
+        height: 2.6rem;
+        border: none;
+        position: absolute;
+        top: 14.5rem;
+        left: 8rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+
+    .YourStoryText {
+        width: 15rem;
+        color: #000;
+        position: relative;
+        background-color: #fff;
+        left: 40rem;
+        top: -44rem;
+        z-index: 1070;
+        font-size: 1.5rem;
+        font-weight: 700;
+        display: none;
+    }
+
+    .produtsList1 {
+        position: relative;
+        left: 4.5rem;
+        top: -48rem;
+        width: 90rem;
+        display: none;
+    }
+
+    .filters {
+        position: relative;
+        bottom: 0rem;
+        left: 30rem;
+        display: inline;
+    }
+
+    .filterAll {
+        width: 10rem;
+        position: absolute;
+        top: 4rem;
+        color: #fff;
+        left: -40rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterHealth {
+        width: 10rem;
+        position: absolute;
+        top: 4rem;
+        color: #fff;
+        left: -25rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterFood {
+        width: 5rem;
+        position: absolute;
+        top: 3.8rem;
+        color: #fff;
+        left: -6rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterTravel {
+        width: 10rem;
+        position: absolute;
+        top: 4rem;
+        color: #fff;
+        left: 9.7rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterMovies {
+        width: 10rem;
+        position: absolute;
+        top: 3.7rem;
+        color: #fff;
+        left: 29.5rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filter2 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -17.4rem;
+        right: 3rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filter1 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -8rem;
+        right: 19rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filter3 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -27.1rem;
+        right: -15rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filter4 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -36rem;
+        right: -34rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .storyPortion {
+        position: absolute;
+        top: .5rem;
+        right: 2.6rem;
+        width: 23rem;
+        height: 34rem;
+        background-color: #fff;
+        color: #000;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 2rem;
+    }
+
+    .createStory1 {
+        position: absolute;
+        top: 30.4rem;
+        left: 0.5rem;
+        width: 2.8rem;
+        height: 2.3rem;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: .6rem;
+        font-size: 1rem;
+        font-weight: 700;
+        cursor: pointer;
+
+    }
+
+    .closeButtonAdd {
+        position: absolute;
+        left: 20rem;
+        top: 1rem;
+        width: 2rem;
+    }
+
+    .storyAddText {
+        width: 30rem;
+        position: absolute;
+        left: -2rem;
+        top: 1rem;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .slidePart {
+        position: relative;
+        left: -.5rem;
+        top: 1.6rem;
+        width: 1.7rem;
+        height: 1.5rem;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: .6rem;
+        font-size: 1rem;
+        font-weight: 700;
+        cursor: pointer;
+        display: list-item;
+        padding: 1rem;
+        margin-top: 1rem;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .previewButton1 {
+        border: none;
+        font-size: 1.2rem;
+        background-color: #7EFF73;
+        color: #fff;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        position: relative;
+        right: 4rem;
+        top: .5rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        display: none;
+    }
+
+    .nextButton1 {
+        border: none;
+        font-size: 1.2rem;
+        background-color: #73ABFF;
+        color: #fff;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        position: relative;
+        right: 2rem;
+        top: .5rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        display: none;
+    }
+
+    .postButton1 {
+        border: none;
+        font-size: 1.1rem;
+        background-color: #FF7373;
+        color: #fff;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: .3rem;
+        padding-bottom: .3rem;
+        position: absolute;
+        top: 18.9rem;
+        right: 7rem;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .formInput14 {
+        width: 16rem;
+        height: 2.2rem;
+        position: relative;
+        left: -5.9rem;
+        top: 2.6rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .formInput4 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        position: relative;
+        left: 6rem;
+        top: 0rem;
+    }
+
+    .formInput3 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        position: relative;
+        left: 4.8rem;
+        top: -3rem;
+    }
+
+    .formInput13 {
+        width: 14.5rem;
+        height: 2.2rem;
+        position: relative;
+        left: -3.9rem;
+        top: 2.6rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .formInput2 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        position: relative;
+        left: -1.4rem;
+        top: -4rem;
+    }
+
+    .formInput12 {
+        width: 14.5rem;
+        height: 2.2rem;
+        position: relative;
+        left: 4.2rem;
+        top: 0.6rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .formInput1 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        position: relative;
+        left: 6rem;
+        top: -7rem;
+    }
+
+    .formInput11 {
+        width: 14.5rem;
+        height: 2.2rem;
+        position: relative;
+        left: -5.9rem;
+        top: 2.6rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .closeButton3 {
+        cursor: pointer;
+        position: relative;
+        left: 31rem;
+        top: -1rem;
+        width: 3.5rem;
+    }
+
+    .otherStoryText1 {
+        width: 20rem;
+        height: 2rem;
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 700;
+        left: 34rem;
+        bottom: 39.4rem;
+        display: none;
+    }
+
+    .otherStoryText2 {
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 700;
+        bottom: 34rem;
+        display: none;
+    }
+
+    .otherStoryText3 {
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 700;
+        bottom: 29.5rem;
+        display: none;
+    }
+
+    .otherStoryText4 {
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 700;
+        bottom: 24rem;
+        display: none;
+    }
+
+    .produtsList11 {
+        display: none;
+    }
+
+    .produtsList2 {
+        display: none;
+    }
+
+    .produtsList3 {
+        display: none;
+    }
+
+    .produtsList4 {
+        display: none;
+    }
+
+    .resProducts {
+        display: block;
+    }
+
+    .jobFormateRes {
+        margin-top: 2rem;
+        background-color: #000;
+        height: 37rem;
+        width: 20rem;
+        position: relative;
+        top: -44rem;
+        left: 1.8rem;
+        border-radius: 1rem;
+
+    }
+
+    .imgSizeRes {
+        width: 22.5rem;
+        height: 28rem;
+        position: relative;
+        left: -2.5rem;
+        border-radius: 1rem;
+    }
+
+    .jobFormateHeadingRes {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 500;
+        position: absolute;
+        left: 1rem;
+        top: 28rem;
+    }
+
+    .jobFormateDescriptionRes {
+        width: 21rem;
+        color: #fff;
+        font-size: .8rem;
+        position: absolute;
+        left: 0rem;
+        top: 31.2rem;
+    }
+
+    .modalBookmark {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Semi-transparent black background */
+        z-index: 1050;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .leftArrow1 {
+        cursor: pointer;
+        position: absolute;
+        top: 14rem;
+        right: 21rem;
+        width: 1.5rem;
+    }
+
+    .rightArrow1 {
+        cursor: pointer;
+        position: absolute;
+        top: 14rem;
+        right: -2.4rem;
+        width: 1.5rem;
+
+    }
+
+    .jobFormateResO {
+        background-color: #000;
+        position: relative;
+        top: 0rem;
+        right: 0.3rem;
+        width: 20rem;
+        height: 30rem;
+        border-radius: 1rem;
+
+    }
+
+    .imgSize10 {
+        width: 20rem;
+        height: 19rem;
+        position: absolute;
+        left: 0rem;
+        border-radius: 1rem;
+    }
+
+    .jobFormateHeading10 {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 500;
+        position: absolute;
+        left: .5rem;
+        top: 19.2rem;
+    }
+
+    .jobFormateDescription10 {
+        width: 20rem;
+        color: #fff;
+        font-size: .9rem;
+        position: relative;
+        left: 0rem;
+        top: 21.2rem;
+    }
+
+    .shareIcon0 {
+        width: 1.5rem;
+        height: 1.5rem;
+        position: absolute;
+        left: 17.5rem;
+        top: 1.2rem;
+        cursor: pointer;
+    }
+
+    .closebutton000 {
+        position: absolute;
+        top: 0.1rem;
+        left: 1.1rem;
+        cursor: pointer;
+        font-size: 2rem;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 48rem;
+        margin-right: 34rem;
+    }
+
+    .bookmark000 {
+        width: 1.6rem;
+        height: 2.3rem;
+        position: absolute;
+        right: 17rem;
+        top: 27rem;
+        cursor: pointer;
+    }
+
+    .countButton0 {
+        width: 1rem;
+        height: 1rem;
+        color: #000;
+    }
+
+    .count0 {
+        width: 4rem;
+        color: white;
+        position: absolute;
+        top: 27.3rem;
+        right: 0rem;
+        font-size: 1.2rem;
+    }
+
+    .like000 {
+        width: 2.3rem;
+        height: 2.3rem;
+        position: absolute;
+        right: 3rem;
+        top: 27.1rem;
+        cursor: pointer;
+    }
+
+
+    .progressContainer0 {
+        position: relative;
+        width: 100%;
+        height: 10px;
+        background-color: #e0e0e0;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .progressBar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 1%;
+        background-color: #4caf50;
+        transition: width 0.3s ease;
+    }
+
+    .shareOutputText0 {
+        width: 15.9rem;
+        height: 1.7rem;
+        position: absolute;
+        left: .1rem;
+        top: 16.4rem;
+        color: red;
+        background-color: #D9D9D9;
+        z-index: 1150;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: .3rem;
+        padding-bottom: .4rem;
+        font-size: .8rem;
+        border-radius: 1rem;
+        font-weight: 500;
+    }
+
+    .bookmark111 {
+        width: 1.7rem;
+        height: 2.4rem;
+        position: absolute;
+        right: 16.9rem;
+        top: 27rem;
+        cursor: pointer;
+    }
+
+    .allBookmarkStatus {
+        display: block;
+    }
+
+    .jobFormateReso {
+        margin-top: 3rem;
+        display: list-item;
+        position: relative;
+        top: -5rem;
+        left: 1.8rem;
+        padding-top: 2.7rem;
+        background-color: #020202;
+        width: 20rem;
+        height: 30rem;
+        border-radius: 1rem;
+        display: block;
+
+    }
+
+    .jobFormateRes1 {
+        background-color: #000;
+        position: relative;
+        top: 1rem;
+        right: 0.3rem;
+        width: 20rem;
+        height: 30rem;
+        border-radius: 1rem;
+
+    }
+
+    .imgSizeReso {
+        width: 22.5rem;
+        height: 24rem;
+        position: relative;
+        left: -2.5rem;
+        top: -2.8rem;
+        border-radius: 1rem;
+    }
+
+    .jobFormateHeadingReso {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 500;
+        position: absolute;
+        left: 1rem;
+        top: 24rem;
+    }
+
+    .jobFormateDescriptionReso {
+        width: 21rem;
+        color: #fff;
+        font-size: .8rem;
+        position: absolute;
+        left: 1rem;
+        top: 27rem;
+
+    }
+
+    .YourBookmarkRes {
+        width: 25rem;
+        color: #000;
+        position: relative;
+        background-color: #fff;
+        left: 38rem;
+        top: -30.5rem;
+        z-index: 1010;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .YourBookmarkReso {
+        width: 25rem;
+        color: #000;
+        position: relative;
+        background-color: #fff;
+        left: 0rem;
+        top: -2.5rem;
+        z-index: 1010;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: 10rem;
+        padding-bottom: 1rem;
+    }
+
+    .YourStoryText22 {
+        display: block;
+        width: 15rem;
+        color: #000;
+        position: relative;
+        background-color: #fff;
+        left: 4rem;
+        top: -2.5rem;
+        z-index: 1010;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: 10rem
+    }
+
+    .produtsList22 {
+        display: block;
+    }
+
+    .jobFormate22 {
+        margin-top: 3rem;
+        display: list-item;
+        position: relative;
+        top: -5rem;
+        left: 1.8rem;
+        padding-top: 2.7rem;
+        background-color: #020202;
+        width: 20rem;
+        height: 30rem;
+        border-radius: 1rem;
+        display: block;
+    }
+
+
+    .editIcon00 {
+        width: 1.7rem;
+        z-index: 1010;
+        position: absolute;
+        top: 31.3rem;
+        right: 12.7rem;
+        cursor: pointer;
+    }
+
+    .editText00 {
+        background-color: #fff;
+        color: #000;
+        width: 9rem;
+        height: 2.7rem;
+        padding-left: 1rem;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 1rem;
+        position: absolute;
+        top: 31.3rem;
+        left: 7rem;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 1.7rem;
+    }
+
+    .imgSizeResoo {
+        width: 22.5rem;
+        height: 24rem;
+        position: relative;
+        left: -2.5rem;
+        top: -2.8rem;
+        border-radius: 1rem;
+    }
+
+
+    .imgSizeRes1 {
+        width: 20rem;
+        height: 19rem;
+        position: absolute;
+        left: 0rem;
+        border-radius: 1rem;
+    }
+
+    .jobFormateHeadingRes1 {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 500;
+        position: absolute;
+        left: 1rem;
+        top: 19rem;
+    }
+
+    .jobFormateDescriptionRes1 {
+        width: 19rem;
+        color: #fff;
+        font-size: .9rem;
+        position: absolute;
+        left: 0rem;
+        top: 21.2rem;
+    }
+
+    .filters2 {
+        display: block;
+        position: absolute;
+        left: 13.8rem;
+        top: 6rem;
+    }
+
+    .filterAll1 {
+        width: 10rem;
+        position: relative;
+        top: -.5rem;
+        color: #c02727;
+        left: -16.5rem;
+        font-size: .8rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+
+    }
+
+    .produtsListRes {
+        position: relative;
+        top: 50rem;
+    }
+
+    .filterHealth1 {
+        width: 5rem;
+        position: absolute;
+        top: -0.5rem;
+        color: #a92121;
+        left: -9rem;
+        font-size: .8rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterFood1 {
+        width: 5rem;
+        position: absolute;
+        top: -.5rem;
+        color: #c21a1a;
+        left: -4rem;
+        font-size: .8rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterTravel1 {
+        width: 10rem;
+        position: absolute;
+        top: -.5rem;
+        color: #9d1010;
+        left: -.4rem;
+        font-size: .8rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterMovies1 {
+        width: 5rem;
+        position: absolute;
+        top: -.5rem;
+        color: #ca2424;
+        left: 6.4rem;
+        font-size: .8rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+
+    .filters {
+        display: none;
+    }
+
+    .shareIconRes1 {
+        position: absolute;
+        top: 1.5rem;
+        left: 17rem;
+        width: 2rem;
+    }
+
+    .closebutton00Res {
+        position: absolute;
+        top: 0.1rem;
+        left: 1.1rem;
+        cursor: pointer;
+        font-size: 2.4rem;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .progressContainerRes {
+        position: relative;
+        width: 10%;
+        height: 10px;
+        background-color: #e0e0e0;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .progressBar {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        height: 1%;
+        background-color: #4caf50;
+        transition: width 0.3s ease;
+        z-index: 1200;
+    }
+
+    .bookmark00Res {
+        width: 1.9rem;
+        height: 2.3rem;
+        position: relative;
+        top: 26.5rem;
+        right: 6.5rem;
+        z-index: 1200;
+
+    }
+
+    .bookmark11Res {
+        width: 2rem;
+        height: 2.4rem;
+        position: relative;
+        top: 26.5rem;
+        right: 8.4rem;
+        z-index: 1200;
+
+    }
+
+    .like00Res {
+        width: 2.4rem;
+        height: 2.4rem;
+        position: absolute;
+        right: 3rem;
+        top: 26.6rem;
+        cursor: pointer;
+        z-index: 1200;
+    }
+
+    .countRes {
+        font-size: 1.1rem;
+        z-index: 1000;
+        color: #fff;
+        position: relative;
+        left: 8rem;
+        top: 24rem;
+    }
+
+    .countButtonRes {
+        color: #000;
+        background-color: #000;
+    }
+
+    .editPortion1 {
+        position: absolute;
+        top: .5rem;
+        right: 1.6rem;
+        width: 23rem;
+        height: 34rem;
+        background-color: #fff;
+        color: #000;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 2rem;
+
+    }
+
+    .editClose1 {
+        cursor: pointer;
+        position: absolute;
+        left: 19.5rem;
+        top: .5rem;
+        width: 2rem;
+    }
+
+    .updateText1 {
+        width: 30rem;
+        position: absolute;
+        left: -3rem;
+        top: 0rem;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    .formInput011 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        position: relative;
+        left: -6.2rem;
+        top: 3rem;
+    }
+
+    .formInput211 {
+        width: 19rem;
+        height: 2.2rem;
+        position: relative;
+        left: 7.1rem;
+        top: 1rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+
+    }
+
+    .formInput244 {
+        width: 20rem;
+        height: 2.2rem;
+        position: relative;
+        left: 7rem;
+        top: 1rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+    }
+
+    .formInput044 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        position: relative;
+        left: -6.2rem;
+        top: 6rem;
+    }
+
+    .formInput033 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        position: relative;
+        left: -7.2rem;
+        top: 5rem;
+    }
+
+    .formInput233 {
+        width: 19rem;
+        height: 2.2rem;
+        position: relative;
+        left: 8rem;
+        top: 1rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+    }
+
+    .formInput022 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        position: relative;
+        left: -5.5rem;
+        top: 4rem;
+    }
+
+    .formInput222 {
+        width: 19rem;
+        height: 2.2rem;
+        position: relative;
+        left: 6.3rem;
+        top: 1rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+    }
+
+    .postButton111 {
+        border: none;
+        font-size: 1.5rem;
+        background-color: #FF7373;
+        color: #fff;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        position: relative;
+        top: 6.5rem;
+        right: 0rem;
+        border-radius: 1rem;
+        cursor: pointer;
+
+    }
+
+    .filterA1 {
+        width: 4rem;
+        height: 3rem;
+        position: absolute;
+        top: -1rem;
+        right: 19.8rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filterA2 {
+        width: 4rem;
+        height: 3rem;
+        position: absolute;
+        top: -1rem;
+        right: 14.7rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filterA3 {
+        width: 4rem;
+        height: 3rem;
+        position: absolute;
+        top: -1rem;
+        right: 9.5rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filterA4 {
+        width: 4rem;
+        height: 3rem;
+        position: absolute;
+        top: -1rem;
+        right: 4.2rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filterA5 {
+        width: 4rem;
+        height: 3rem;
+        position: absolute;
+        top: -1rem;
+        right: -1rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .showText11 {
+        position: relative;
+        top: 20rem;
+        left: 40rem;
+        color: #000;
+        font-size: 1.5rem;
+    }
+
+    .leftArrow2 {
+        cursor: pointer;
+        position: absolute;
+        top: 11rem;
+        right: 21rem;
+        width: 1.5rem;
+    }
+
+    .rightArrow2 {
+        cursor: pointer;
+        position: absolute;
+        top: 11rem;
+
+        left: 20.5rem;
+        width: 1.5rem;
+    }
+}
+
+
+@media only screen and (max-width :320px) {
+
+    .shareOutputTextAA {
+        width: 15.9rem;
+        height: 1.7rem;
+        position: absolute;
+        left: .1rem;
+        top: 16.4rem;
+        color: red;
+        background-color: #D9D9D9;
+        z-index: 1150;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: .3rem;
+        padding-bottom: .4rem;
+        font-size: .8rem;
+        border-radius: 1rem;
+        font-weight: 500;
+    }
+
+    .NavSignup {
+        width: 8rem;
+        background-color: #FF7373;
+        color: #fff;
+        font-size: 1rem;
+        position: absolute;
+        right: 12rem;
+        top: .8rem;
+        font-weight: 500;
+        border-radius: 1rem;
+        padding-bottom: .5rem;
+        padding-top: .3rem;
+        display: none;
+
+    }
+
+    .NavLogin {
+        width: 7rem;
+        background-color: #73ABFF;
+        color: #fff;
+        font-size: 1rem;
+        position: absolute;
+        right: 3rem;
+        top: .8rem;
+        font-weight: 500;
+        border-radius: 1rem;
+        padding-bottom: .5rem;
+        padding-top: .3rem;
+        display: none;
+
+    }
+
+    .humbarger1 {
+        position: absolute;
+        left: 21.4rem;
+        top: .3rem;
+        width: 2.5rem;
+        height: 2.7rem;
+        display: block;
+    }
+
+    .box2 {
+        width: 27.9rem;
+        height: 20rem;
+        position: absolute;
+        left: 0rem;
+        top: 3.5rem;
+        background-color: #fff;
+        color: black;
+        border: .1rem #FF7373;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        z-index: 1050;
+    }
+
+    .closeBurger {
+        font-size: 3.0rem;
+        position: absolute;
+        left: 22rem;
+        top: 1rem;
+        width: 3rem;
+        font-weight: 500;
+    }
+
+    .resLogin {
+        background-color: #FF7373;
+        color: #fff;
+        width: 11rem;
+        height: 3rem;
+        font-size: 1.7rem;
+        border-radius: 1rem;
+        border: none;
+        position: relative;
+        top: 5rem;
+        left: 5rem;
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+    .resRegister {
+        background-color: #FF7373;
+        color: #fff;
+        width: 11rem;
+        height: 3rem;
+        font-size: 1.7rem;
+        border-radius: 1rem;
+        border: none;
+        position: relative;
+        left: -6rem;
+        top: 10rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .signupPortion1 {
+        width: 20rem;
+        height: 30rem;
+        background-color: #fff;
+        color: #000;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 1rem;
+        z-index: 1220;
+        position: relative;
+        right: 25rem;
+        top: -36rem;
+    }
+
+    .signupText2 {
+        color: #000;
+        font-weight: 700;
+        font-size: 1.6rem;
+        position: relative;
+        top: 3rem;
+        left: .5rem;
+    }
+
+
+    .signupLebel21 {
+        position: relative;
+        right: 0rem;
+        top: 10rem;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    .signupInput21 {
+        width: 12rem;
+        height: 2rem;
+        position: relative;
+        left: .1rem;
+        top: .7rem;
+        border: .1rem solid black;
+        font-size: 1.1rem;
+        padding-left: 2rem;
+    }
+
+    .SignupButton1 {
+        position: relative;
+        top: 13.2rem;
+        right: 1rem;
+        width: 10rem;
+        height: 3rem;
+        border: none;
+        background: #73ABFF;
+        color: #fff;
+        font-size: 1.5rem;
+        border-radius: .9rem;
+        cursor: pointer;
+    }
+
+
+    .eye11 {
+        position: relative;
+        left: 10.9rem;
+        top: 7.9rem;
+        width: 1.3rem;
+    }
+
+    .signupLebel11 {
+        position: relative;
+        right: 0rem;
+        top: 8rem;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    .signupInput11 {
+        width: 12rem;
+        height: 2rem;
+        position: relative;
+        left: 0rem;
+        top: 0.6rem;
+        border: .1rem solid black;
+        font-size: 1.1rem;
+        padding-left: 2rem;
+    }
+
+    .loginPortion1 {
+        width: 20rem;
+        height: 30rem;
+        background-color: #fff;
+        color: #000;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 1rem;
+        z-index: 1220;
+        position: relative;
+        right: 25rem;
+        top: -36rem;
+    }
+
+    .closeButton11 {
+        cursor: pointer;
+        position: absolute;
+        left: 17.5rem;
+        top: .5rem;
+        width: 2rem;
+
+    }
+
+    .LoginButton1 {
+        position: relative;
+        top: 12.2rem;
+        right: 1rem;
+        width: 10rem;
+        height: 3rem;
+        border: none;
+        background: #73ABFF;
+        color: #fff;
+        font-size: 1.5rem;
+        border-radius: .9rem;
+        cursor: pointer;
+    }
+
+    .loginLebel21 {
+        position: relative;
+        right: 0rem;
+        top: 8rem;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    .loginInput22 {
+        width: 12rem;
+        height: 2rem;
+        position: relative;
+        left: .1rem;
+        top: .7rem;
+        border: .1rem solid black;
+        font-size: 1.1rem;
+        padding-left: 2rem;
+    }
+
+    .loginLebel11 {
+        position: relative;
+        right: 0rem;
+        top: 4.6rem;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    .loginInput11 {
+        width: 12rem;
+        height: 2rem;
+        position: relative;
+        left: 0rem;
+        top: 0.6rem;
+        border: .1rem solid black;
+        font-size: 1.1rem;
+        padding-left: 2rem;
+    }
+
+    .loginText11 {
+        color: #000;
+        font-weight: 700;
+        font-size: 1.6rem;
+        position: relative;
+        top: 3rem;
+        left: .5rem;
+    }
+
+    .eye23 {
+        position: relative;
+        left: 10.9rem;
+        top: 5.9rem;
+        width: 1.3rem;
+    }
+
+    .hamburger {
+        width: 2.1rem;
+        height: 1.7rem;
+        position: absolute;
+        right: 2rem;
+        top: 1rem;
+        cursor: pointer;
+        display: none;
+    }
+
+    .userName {
+
+        text-decoration: none;
+        position: relative;
+        top: .5rem;
+        font-size: 1.1rem;
+        font-weight: 500;
+        display: none;
+    }
+
+    .pImg {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        margin-left: 80rem;
+        position: relative;
+        bottom: 2rem;
+        display: none;
+    }
+
+    .bookmarks {
+        position: absolute;
+        left: 68rem;
+        top: .4rem;
+        background-color: #FF7373;
+        color: #fff;
+        border-radius: 1rem;
+        padding-left: 3rem;
+        padding-top: .5rem;
+        padding-right: .6rem;
+        padding-bottom: .5rem;
+        cursor: pointer;
+        display: none;
+
+    }
+
+    .addStory {
+        position: absolute;
+        left: 80rem;
+        top: .4rem;
+        background-color: #FF7373;
+        color: #fff;
+        border-radius: 1rem;
+        padding-left: .7rem;
+        padding-right: .7rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        cursor: pointer;
+        display: none;
+
+    }
+
+    .bookmarkIcon {
+        width: 1rem;
+        position: absolute;
+        left: 69.4rem;
+        top: 1rem;
+        z-index: 1100;
+        cursor: pointer;
+        display: none;
+    }
+
+    .resUserPic {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        position: relative;
+        right: 10rem;
+        top: 1rem;
+
+    }
+
+    .resUserName {
+        font-size: 1.6rem;
+        font-weight: 700;
+        position: relative;
+        bottom: 1.9rem;
+    }
+
+    .resYourStory {
+        background-color: #FF7373;
+        color: #fff;
+        width: 10rem;
+        height: 2.6rem;
+        border: none;
+        position: relative;
+        bottom: 0rem;
+        left: -1rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+    .resAddStory {
+        background-color: #FF7373;
+        color: #fff;
+        width: 10rem;
+        height: 2.6rem;
+        border: none;
+        position: absolute;
+        top: 7.5rem;
+        left: 8rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+
+    .resBookmark {
+        background-color: #FF7373;
+        color: #fff;
+        width: 10rem;
+        height: 2.6rem;
+        border: none;
+        position: absolute;
+        top: 11rem;
+        left: 8rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        margin-top: 1rem;
+        font-weight: 500;
+        /* cursor: pointer; */
+    }
+
+    .resLogout {
+        background-color: #FF7373;
+        color: #fff;
+        width: 10rem;
+        height: 2.6rem;
+        border: none;
+        position: absolute;
+        top: 14.5rem;
+        left: 8rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+
+    .YourStoryText {
+        width: 15rem;
+        color: #000;
+        position: relative;
+        background-color: #fff;
+        left: 40rem;
+        top: -44rem;
+        z-index: 1070;
+        font-size: 1.5rem;
+        font-weight: 700;
+        display: none;
+    }
+
+    .produtsList1 {
+        position: relative;
+        left: 4.5rem;
+        top: -48rem;
+        width: 90rem;
+        display: none;
+    }
+
+    .filters {
+        position: relative;
+        bottom: 0rem;
+        left: 30rem;
+        display: inline;
+    }
+
+    .filterAll {
+        width: 10rem;
+        position: absolute;
+        top: 4rem;
+        color: #fff;
+        left: -40rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterHealth {
+        width: 10rem;
+        position: absolute;
+        top: 4rem;
+        color: #fff;
+        left: -25rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterFood {
+        width: 5rem;
+        position: absolute;
+        top: 3.8rem;
+        color: #fff;
+        left: -6rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterTravel {
+        width: 10rem;
+        position: absolute;
+        top: 4rem;
+        color: #fff;
+        left: 9.7rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterMovies {
+        width: 10rem;
+        position: absolute;
+        top: 3.7rem;
+        color: #fff;
+        left: 29.5rem;
+        font-size: 1.5rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filter2 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -17.4rem;
+        right: 3rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filter1 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -8rem;
+        right: 19rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filter3 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -27.1rem;
+        right: -15rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filter4 {
+        width: 13rem;
+        height: 9rem;
+        position: relative;
+        top: -36rem;
+        right: -34rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .storyPortion {
+        position: absolute;
+        top: .5rem;
+        right: 18.6rem;
+        width: 23rem;
+        height: 34rem;
+        background-color: #fff;
+        color: #000;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 2rem;
+    }
+
+    .createStory1 {
+        position: absolute;
+        top: 30.4rem;
+        left: 0.5rem;
+        width: 2.8rem;
+        height: 2.3rem;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: .6rem;
+        font-size: 1rem;
+        font-weight: 700;
+        cursor: pointer;
+
+    }
+
+    .closeButtonAdd {
+        position: absolute;
+        left: 20rem;
+        top: 1rem;
+        width: 2rem;
+    }
+
+    .storyAddText {
+        width: 30rem;
+        position: absolute;
+        left: -2rem;
+        top: 1rem;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .slidePart {
+        position: relative;
+        left: -.5rem;
+        top: 1.6rem;
+        width: 1.7rem;
+        height: 1.5rem;
+        border: none;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: .6rem;
+        font-size: 1rem;
+        font-weight: 700;
+        cursor: pointer;
+        display: list-item;
+        padding: 1rem;
+        margin-top: 1rem;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .previewButton1 {
+        border: none;
+        font-size: 1.2rem;
+        background-color: #7EFF73;
+        color: #fff;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        position: relative;
+        right: 4rem;
+        top: .5rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        display: none;
+    }
+
+    .nextButton1 {
+        border: none;
+        font-size: 1.2rem;
+        background-color: #73ABFF;
+        color: #fff;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        position: relative;
+        right: 2rem;
+        top: .5rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        display: none;
+    }
+
+    .postButton1 {
+        border: none;
+        font-size: 1.1rem;
+        background-color: #FF7373;
+        color: #fff;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: .3rem;
+        padding-bottom: .3rem;
+        position: absolute;
+        top: 18.9rem;
+        right: 7rem;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .formInput14 {
+        width: 16rem;
+        height: 2.2rem;
+        position: relative;
+        left: -5.9rem;
+        top: 2.6rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .formInput4 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        position: relative;
+        left: 6rem;
+        top: 0rem;
+    }
+
+    .formInput3 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        position: relative;
+        left: 4.8rem;
+        top: -3rem;
+    }
+
+    .formInput13 {
+        width: 14.5rem;
+        height: 2.2rem;
+        position: relative;
+        left: -3.9rem;
+        top: 2.6rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .formInput2 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        position: relative;
+        left: -1.4rem;
+        top: -4rem;
+    }
+
+    .formInput12 {
+        width: 14.5rem;
+        height: 2.2rem;
+        position: relative;
+        left: 4.2rem;
+        top: 0.6rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .formInput1 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        position: relative;
+        left: 6rem;
+        top: -7rem;
+    }
+
+    .formInput11 {
+        width: 14.5rem;
+        height: 2.2rem;
+        position: relative;
+        left: -5.9rem;
+        top: 2.6rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .closeButton3 {
+        cursor: pointer;
+        position: relative;
+        left: 31rem;
+        top: -1rem;
+        width: 3.5rem;
+    }
+
+    .otherStoryText1 {
+        width: 20rem;
+        height: 2rem;
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 700;
+        left: 34rem;
+        bottom: 39.4rem;
+        display: none;
+    }
+
+    .otherStoryText2 {
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 700;
+        bottom: 34rem;
+        display: none;
+    }
+
+    .otherStoryText3 {
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 700;
+        bottom: 29.5rem;
+        display: none;
+    }
+
+    .otherStoryText4 {
+        position: relative;
+        font-size: 1.5rem;
+        font-weight: 700;
+        bottom: 24rem;
+        display: none;
+    }
+
+    .produtsList11 {
+        display: none;
+    }
+
+    .produtsList2 {
+        display: none;
+    }
+
+    .produtsList3 {
+        display: none;
+    }
+
+    .produtsList4 {
+        display: none;
+    }
+
+    .resProducts {
+        display: block;
+    }
+
+    .jobFormateRes {
+        margin-top: 2rem;
+        background-color: #000;
+        height: 37rem;
+        width: 20rem;
+        position: relative;
+        top: -44rem;
+        left: 1.1rem;
+        border-radius: 1rem;
+
+    }
+
+    .imgSizeRes {
+        width: 22.5rem;
+        height: 28rem;
+        position: relative;
+        left: -2.5rem;
+        border-radius: 1rem;
+    }
+
+    .jobFormateHeadingRes {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 500;
+        position: absolute;
+        left: 1rem;
+        top: 28rem;
+    }
+
+    .jobFormateDescriptionRes {
+        width: 21rem;
+        color: #fff;
+        font-size: .8rem;
+        position: absolute;
+        left: 0rem;
+        top: 31.2rem;
+    }
+
+    .modalBookmark {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Semi-transparent black background */
+        z-index: 1050;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .leftArrow1 {
+        cursor: pointer;
+        position: absolute;
+        top: 19rem;
+        right: 14rem;
+        width: 1.5rem;
+    }
+
+    .rightArrow1 {
+        cursor: pointer;
+        position: absolute;
+        top: 19rem;
+        right: 21rem;
+        width: 1.5rem;
+
+
+    }
+
+    .jobFormateResO {
+        background-color: #000;
+        position: relative;
+        top: -12rem;
+        right: 9.3rem;
+        width: 20rem;
+        height: 30rem;
+        border-radius: 1rem;
+
+    }
+
+    .imgSize10 {
+        width: 20rem;
+        height: 19rem;
+        position: absolute;
+        left: 0rem;
+        border-radius: 1rem;
+    }
+
+    .jobFormateHeading10 {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 500;
+        position: absolute;
+        left: .5rem;
+        top: 19.2rem;
+    }
+
+    .jobFormateDescription10 {
+        width: 20rem;
+        color: #fff;
+        font-size: .9rem;
+        position: relative;
+        left: 0rem;
+        top: 21.2rem;
+    }
+
+    .shareIcon0 {
+        width: 1.5rem;
+        height: 1.5rem;
+        position: absolute;
+        left: 17.5rem;
+        top: 1.2rem;
+        cursor: pointer;
+    }
+
+    .closebutton000 {
+        position: absolute;
+        top: 4.9rem;
+        left: 4rem;
+        cursor: pointer;
+        font-size: 2rem;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 48rem;
+        margin-right: 34rem;
+    }
+
+    .bookmark000 {
+        width: 1.6rem;
+        height: 2.3rem;
+        position: absolute;
+        right: 17rem;
+        top: 27rem;
+        cursor: pointer;
+    }
+
+    .countButton0 {
+        width: 1rem;
+        height: 1rem;
+        color: #000;
+    }
+
+    .count0 {
+        width: 4rem;
+        color: white;
+        position: absolute;
+        top: 27.3rem;
+        right: 0rem;
+        font-size: 1.2rem;
+    }
+
+    .like000 {
+        width: 2.3rem;
+        height: 2.3rem;
+        position: absolute;
+        right: 3rem;
+        top: 27.1rem;
+        cursor: pointer;
+    }
+
+
+    .progressContainer0 {
+        position: relative;
+        width: 100%;
+        height: 10px;
+        background-color: #e0e0e0;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .progressBar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 1%;
+        background-color: #4caf50;
+        transition: width 0.3s ease;
+    }
+
+    .shareOutputText0 {
+        width: 15.9rem;
+        height: 1.7rem;
+        position: absolute;
+        left: .1rem;
+        top: 16.4rem;
+        color: red;
+        background-color: #D9D9D9;
+        z-index: 1150;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: .3rem;
+        padding-bottom: .4rem;
+        font-size: .8rem;
+        border-radius: 1rem;
+        font-weight: 500;
+    }
+
+    .bookmark111 {
+        width: 1.7rem;
+        height: 2.4rem;
+        position: absolute;
+        right: 16.9rem;
+        top: 27rem;
+        cursor: pointer;
+    }
+
+    .allBookmarkStatus {
+        display: block;
+    }
+
+    .jobFormateReso {
+        margin-top: 3rem;
+        display: list-item;
+        position: relative;
+        top: -5rem;
+        left: 1rem;
+        padding-top: 2.7rem;
+        background-color: #020202;
+        width: 20rem;
+        height: 30rem;
+        border-radius: 1rem;
+        display: block;
+
+    }
+
+    .jobFormateRes1 {
+        background-color: #000;
+        position: fixed;
+        top: 5rem;
+        right: 20.5rem;
+        width: 20rem;
+        height: 30rem;
+        border-radius: 1rem;
+
+    }
+
+    .imgSizeReso {
+        width: 22.5rem;
+        height: 24rem;
+        position: relative;
+        left: -2.5rem;
+        top: -2.8rem;
+        border-radius: 1rem;
+    }
+
+    .jobFormateHeadingReso {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 500;
+        position: absolute;
+        left: 1rem;
+        top: 24rem;
+    }
+
+    .jobFormateDescriptionReso {
+        width: 21rem;
+        color: #fff;
+        font-size: .8rem;
+        position: absolute;
+        left: 1rem;
+        top: 27rem;
+
+    }
+
+    .YourBookmarkRes {
+        width: 25rem;
+        color: #000;
+        position: relative;
+        background-color: #fff;
+        left: 38rem;
+        top: -30.5rem;
+        z-index: 1010;
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .YourBookmarkReso {
+        width: 25rem;
+        color: #000;
+        position: relative;
+        background-color: #fff;
+        left: 0rem;
+        top: -2.5rem;
+        z-index: 1010;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: 10rem;
+        padding-bottom: 1rem;
+    }
+
+    .YourStoryText22 {
+        display: block;
+        width: 15rem;
+        color: #000;
+        position: relative;
+        background-color: #fff;
+        left: 4rem;
+        top: -2.5rem;
+        z-index: 1010;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: 10rem
+    }
+
+    .produtsList22 {
+        display: block;
+    }
+
+    .jobFormate22 {
+        margin-top: 3rem;
+        display: list-item;
+        position: relative;
+        top: -5rem;
+        left: 1rem;
+        padding-top: 2.7rem;
+        background-color: #020202;
+        width: 20rem;
+        height: 30rem;
+        border-radius: 1rem;
+
+    }
+
+    .editIcon00 {
+        width: 1.7rem;
+        z-index: 1010;
+        position: absolute;
+        top: 31.3rem;
+        right: 12.7rem;
+        cursor: pointer;
+    }
+
+    .editText00 {
+        background-color: #fff;
+        color: #000;
+        width: 9rem;
+        height: 2.7rem;
+        padding-left: 1rem;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 1rem;
+        position: absolute;
+        top: 31.3rem;
+        left: 7rem;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 1.7rem;
+    }
+
+    .imgSizeResoo {
+        width: 22.5rem;
+        height: 24rem;
+        position: relative;
+        left: -2.5rem;
+        top: -2.8rem;
+        border-radius: 1rem;
+    }
+
+
+    .imgSizeRes1 {
+        width: 20rem;
+        height: 19rem;
+        position: absolute;
+        left: 0rem;
+        border-radius: 1rem;
+    }
+
+    .jobFormateHeadingRes1 {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 500;
+        position: absolute;
+        left: 1rem;
+        top: 19rem;
+    }
+
+    .jobFormateDescriptionRes1 {
+        width: 19rem;
+        color: #fff;
+        font-size: .9rem;
+        position: absolute;
+        left: 0rem;
+        top: 21.2rem;
+    }
+
+    .filters2 {
+        display: block;
+        position: absolute;
+        left: 33.8rem;
+        top: 6rem;
+    }
+
+    .filterAll1 {
+        width: 10rem;
+        position: relative;
+        top: -.5rem;
+        color: #fff;
+        left: -36rem;
+        font-size: 1rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+
+    }
+
+    .produtsListRes {
+        position: relative;
+        top: 50rem;
+    }
+
+    .filterHealth1 {
+        width: 10rem;
+        position: absolute;
+        top: -0.5rem;
+        color: #fff;
+        left: -30.6rem;
+        font-size: 1rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterFood1 {
+        width: 5rem;
+        position: absolute;
+        top: -.5rem;
+        color: #fff;
+        left: -23rem;
+        font-size: 1rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterTravel1 {
+        width: 10rem;
+        position: absolute;
+        top: -.5rem;
+        color: #fff;
+        left: -20.4rem;
+        font-size: 1rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+    .filterMovies1 {
+        width: 7rem;
+        position: absolute;
+        top: -.5rem;
+        color: #fff;
+        left: -13.4rem;
+        font-size: 1rem;
+        font-weight: 700;
+        z-index: 1030;
+        cursor: pointer;
+    }
+
+
+    .filters {
+        display: none;
+    }
+
+    .shareIconRes1 {
+        position: absolute;
+        top: 1.5rem;
+        left: 17rem;
+        width: 2rem;
+    }
+
+    .closebutton00Res {
+        position: absolute;
+        top: 5rem;
+        left: 4.5rem;
+        cursor: pointer;
+        font-size: 2.4rem;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .progressContainerRes {
+        position: relative;
+        width: 10%;
+        height: 10px;
+        background-color: #e0e0e0;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .progressBar {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        height: 1%;
+        background-color: #4caf50;
+        transition: width 0.3s ease;
+        z-index: 1200;
+    }
+
+    .bookmark00Res {
+        width: 1.9rem;
+        height: 2.3rem;
+        position: relative;
+        top: 26.5rem;
+        right: 6.5rem;
+        z-index: 1200;
+
+    }
+
+    .bookmark11Res {
+        width: 2rem;
+        height: 2.4rem;
+        position: relative;
+        top: 26.5rem;
+        right: 8.4rem;
+        z-index: 1200;
+
+    }
+
+    .like00Res {
+        width: 2.4rem;
+        height: 2.4rem;
+        position: absolute;
+        right: 3rem;
+        top: 26.6rem;
+        cursor: pointer;
+        z-index: 1200;
+    }
+
+    .countRes {
+        font-size: 1.1rem;
+        z-index: 1000;
+        color: #fff;
+        position: relative;
+        left: 8rem;
+        top: 24rem;
+    }
+
+    .countButtonRes {
+        color: #000;
+        background-color: #000;
+    }
+
+    .editPortion1 {
+        position: absolute;
+        top: .5rem;
+        right: 18.6rem;
+        width: 23rem;
+        height: 34rem;
+        background-color: #fff;
+        color: #000;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 2rem;
+
+    }
+
+    .editClose1 {
+        cursor: pointer;
+        position: absolute;
+        left: 19.5rem;
+        top: .5rem;
+        width: 2rem;
+    }
+
+    .updateText1 {
+        width: 30rem;
+        position: absolute;
+        left: -3rem;
+        top: 0rem;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    .formInput011 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        position: relative;
+        left: -6.2rem;
+        top: 3rem;
+    }
+
+    .formInput211 {
+        width: 19rem;
+        height: 2.2rem;
+        position: relative;
+        left: 7.1rem;
+        top: 1rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+
+    }
+
+
+
+
+    .formInput244 {
+        width: 20rem;
+        height: 2.2rem;
+        position: relative;
+        left: 7rem;
+        top: 1rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+    }
+
+    .formInput044 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        position: relative;
+        left: -6.2rem;
+        top: 6rem;
+    }
+
+    .formInput033 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        position: relative;
+        left: -7.2rem;
+        top: 5rem;
+    }
+
+    .formInput233 {
+        width: 19rem;
+        height: 2.2rem;
+        position: relative;
+        left: 8rem;
+        top: 1rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+    }
+
+    .formInput022 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        position: relative;
+        left: -5.5rem;
+        top: 4rem;
+    }
+
+    .formInput222 {
+        width: 19rem;
+        height: 2.2rem;
+        position: relative;
+        left: 6.3rem;
+        top: 1rem;
+        border: .1rem solid black;
+        padding-left: 1rem;
+    }
+
+    .postButton111 {
+        border: none;
+        font-size: 1.5rem;
+        background-color: #FF7373;
+        color: #fff;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        position: relative;
+        top: 6.5rem;
+        right: 0rem;
+        border-radius: 1rem;
+        cursor: pointer;
+
+    }
+
+    .filterA1 {
+        width: 4.5rem;
+        height: 3rem;
+        position: absolute;
+        top: -1rem;
+        right: 39rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filterA2 {
+        width: 4.5rem;
+        height: 3rem;
+        position: absolute;
+        top: -1rem;
+        right: 33.5rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filterA3 {
+        width: 4.5rem;
+        height: 3rem;
+        position: absolute;
+        top: -1rem;
+        right: 28.3rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filterA4 {
+        width: 4.5rem;
+        height: 3rem;
+        position: absolute;
+        top: -1rem;
+        right: 23rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .filterA5 {
+        width: 4.5rem;
+        height: 3rem;
+        position: absolute;
+        top: -1rem;
+        right: 17.7rem;
+        opacity: .7;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+
+    .showText11 {
+        position: relative;
+        top: 20rem;
+        left: 40rem;
+        color: #000;
+        font-size: 1.5rem;
+    }
+
+
+    .leftArrow2 {
+        cursor: pointer;
+        position: absolute;
+        top: 21rem;
+        width: 1.5rem;
+    }
+
+    .rightArrow2 {
+        cursor: pointer;
+        position: absolute;
+        left: 3.3rem;
+        width: 1.5rem;
+
+    }
+
 
 
 }

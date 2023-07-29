@@ -1352,7 +1352,7 @@ const ProductList = () => {
                     <div className="signupPortion1">
 
                       <p className='signupText2'>Registe to SwipTory</p>
-                      <img src={closebutton} className='closeButton3' onClick={handleClose2} alt='' />
+                      <img src={closebutton} className='closeButton133' onClick={handleClose2} alt='' />
 
                       <label className='signupLebel11'>Username
                         <input type='text' className='signupInput11' placeholder='Enter username  ' value={name} onChange={(e) => setName(e.target.value)} />
@@ -2064,7 +2064,6 @@ const ProductList = () => {
 
         {isViewStory5 && visibleItems55[selectedItemIndex5] && (
           <div className="modalBookmark">
-            <img src={left} className="leftArrow" alt="" onClick={handlePrevItem5} />
             <div className="jobFormateResO">
               {visibleItems55[selectedItemIndex5].storyLogoURL && (
                 <img src={visibleItems55[selectedItemIndex5].storyLogoURL} className="imgSize10" />
@@ -2082,6 +2081,11 @@ const ProductList = () => {
               <p className="jobFormateHeading10">{visibleItems55[selectedItemIndex5].heading}</p>
               <p className="jobFormateDescription10">{visibleItems55[selectedItemIndex5].description}</p>
               <img src={share} className="shareIcon0" onClick={handleShare5} alt="" />
+              <img src={left} className="leftArrow1" alt="" onClick={handlePrevItem5} />
+
+              <img src={right} className="rightArrow1" alt="" onClick={handleNextItem5} /> 
+            <p className="closebutton000" onClick={closeModal5}>x</p>
+
               {isShare5 && (
                 <div>
                   <p className="shareOutputText0">{`${visibleItems55[selectedItemIndex5].heading} story Link copied to clipboard`}</p>
@@ -2126,6 +2130,8 @@ const ProductList = () => {
                   <img src={whiteLike} className="like000" alt="White Heart" />
                 )}
               </button>
+
+
               {auth ? (
                 <>
                   <p className="count0">{visibleItems55[selectedItemIndex5].likes || 0}</p>
@@ -2157,15 +2163,13 @@ const ProductList = () => {
                 </>
               )}
             </div>
-            <img src={right} className="rightArrow" alt="" onClick={handleNextItem5} />
-            <p className="closebutton000" onClick={closeModal5}>x</p>
+    
           </div>
         )}
 
 
         {isViewStory6 && visibleItems66[selectedItemIndex6] && (
           <div className="modal">
-            <img src={left} className="leftArrow" alt="" onClick={handlePrevItem6} />
             <div className="jobFormateRes1">
 
 
@@ -2185,6 +2189,9 @@ const ProductList = () => {
               )}
               <p className="jobFormateHeadingRes1">{visibleItems66[selectedItemIndex6].heading}</p>
               <p className="jobFormateDescriptionRes1">{visibleItems66[selectedItemIndex6].description}</p>
+              <img src={left} className="leftArrow2" alt="" onClick={handlePrevItem6} />
+              <img src={right} className="rightArrow2" alt="" onClick={handleNextItem6} />
+            <p className="closebutton00Res" onClick={closeModal6}>x</p>
               <img src={share} className="shareIconRes1" onClick={handleShare6} alt="" />
               {isShare6 && (
                 <div>
@@ -2217,8 +2224,7 @@ const ProductList = () => {
                 ""
               )}
             </div>
-            <img src={right} className="rightArrow" alt="" onClick={handleNextItem6} />
-            <p className="closebutton00Res" onClick={closeModal6}>x</p>
+         
           </div>
         )}
 
@@ -2494,14 +2500,14 @@ const ProductList = () => {
             ) : (
               <p className="showText11">Oops, 😥Please add stories to your bookmarks.</p>
 
-            )}              </div>
+            )}
+          </div>
         )
         }
 
 
         <div className="resProducts">
           <div className="produtsListRes">
-            {/* <p className="YourBookmarkRes">Stories</p> */}
 
             {jobList5.length > 0 ? (
               jobList5.map((item, index) => (
@@ -2527,5 +2533,4 @@ const ProductList = () => {
   )
 }
 
-export default ProductList
- 
+export default ProductList;
