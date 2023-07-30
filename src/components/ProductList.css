@@ -2959,7 +2959,7 @@
     .closeBurger {
         font-size: 3.0rem;
         position: absolute;
-        left: 22rem;
+        left: 21.5rem;
         top: 1rem;
         width: 3rem;
         font-weight: 500;
@@ -3004,8 +3004,8 @@
         border-radius: 1rem;
         z-index: 1220;
         position: relative;
-        right: 25rem;
-        top: -36rem;
+        right: 0rem;
+        top: 0rem;
     }
 
     .signupText2 {
@@ -3087,8 +3087,8 @@
         border-radius: 1rem;
         z-index: 1220;
         position: relative;
-        right: 25rem;
-        top: -36rem;
+        right: 1rem;
+        top: -0rem;
     }
 
     .closeButton11 {
@@ -4575,8 +4575,8 @@
         border-radius: 1rem;
         z-index: 1220;
         position: relative;
-        right: 25rem;
-        top: -36rem;
+        right: 1rem;
+        top: 0rem;
     }
 
     .signupText2 {
