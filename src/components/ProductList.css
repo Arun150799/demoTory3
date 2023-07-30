@@ -3453,9 +3453,9 @@
     }
 
     .storyPortion {
-        position: absolute;
-        top: .5rem;
-        right: 2.6rem;
+        position: relative;
+        top: -2rem;
+        right: 1rem;
         width: 23rem;
         height: 34rem;
         background-color: #fff;
